@@ -6,7 +6,7 @@
   "website": "https://github.com/FriesI23",
   "patreonURL": "https://buymeacoffee.com/d49cb87qgww",
   "tintColor": "#006493",
-  "featuredApps": [],
+  "featuredApps": [ ],
   "apps": [
     {
       "name": "Table Habit",
@@ -18,7 +18,54 @@
       "iconURL": "https://raw.githubusercontent.com/FriesI23/mhabit/refs/heads/main/assets/logo/icon-1024x1024.png",
       "tintColor": "#006493",
       "category": "lifestyle",
-      "screenshots": [],
+      "screenshots": {
+        "iphone": [
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/1.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/2.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/3.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/4.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/5.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/6.png",
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/7.png"
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/1.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/2.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/3.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/4.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/5.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/6.png",
+            "width": 2049,
+            "height": 1536
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/7.png",
+            "width": 2049,
+            "height": 1536
+          }
+        ]
+      },
       "versions": [
         {
           "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.10%2B78/mhabit-unsigned.ipa",
@@ -31,13 +78,13 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [ ],
         "privacy": {
           "Privacy Policy": "see: https://github.com/FriesI23/mhabit/blob/main/PRIVACY.md"
         }
       },
-      "patreon": {}
+      "patreon": { }
     }
   ],
-  "news": []
+  "news": [ ]
 }
