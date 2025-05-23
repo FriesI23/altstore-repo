@@ -6,7 +6,9 @@
   "website": "https://github.com/FriesI23",
   "patreonURL": "https://buymeacoffee.com/d49cb87qgww",
   "tintColor": "#006493",
-  "featuredApps": [ ],
+  "featuredApps": [
+    "io.github.friesi23.mhabit"
+  ],
   "apps": [
     {
       "name": "Table Habit",
