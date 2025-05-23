@@ -13,7 +13,6 @@
     {
       "name": "Table Habit",
       "bundleIdentifier": "io.github.friesi23.mhabit",
-      "marketplaceID": "",
       "developerName": "Fries_I23",
       "subtitle": "Your habit growth journey",
       "localizedDescription": "\"Table Habit\" is an app that helps you establish and track your own micro habit. Its includes a complete set of growth curves and charts to help you establish habits more effectively.\n\nKey Features:\n• Scoring system to help you develop your own micro habits\n• Supports both positive and negative habits\n• Easy-to-use check-in UI\n• Color-coded habits for quick visual distinction\n• Import and export habits using a human-readable JSON format\n• Material You design\n• Optimized for landscape and large-screen devices\n• [Experimental] WebDAV sync support for cross-device syncing\n• No ads\n\nMoreover, this app completely open source.\n\nGot source code from: https://github.com/FriesI23/mhabit\n",
