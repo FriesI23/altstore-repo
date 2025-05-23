@@ -1,12 +1,9 @@
 {
   "name": "FriesI23's Source",
   "subtitle": "All my app sources are here. Have fun!",
-  "description": "",
   "iconURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/source-icon.svg",
   "website": "https://github.com/FriesI23",
-  "patreonURL": "",
   "tintColor": "#006493",
-  "featuredApps": [],
   "apps": [],
   "news": []
 }
