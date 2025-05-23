@@ -69,15 +69,6 @@
         ]
       },
       "versions": [
-        {
-          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.10%2B78/mhabit-unsigned.ipa",
-          "size": 28100000,
-          "version": "1.16.10",
-          "buildVersion": "78",
-          "date": "2025-05-08T09:14:00+08:00",
-          "localizedDescription": "# Release: v1.16.10+78\n\n**🐛 Bug Fixes**\n\n- \\<v1.16.9+77\\>: Show notification bar once app is loaded on iOS.\n- \\<v1.16.9+77\\>: Process duplicate uuid when re-calc habit record uuid. (#269)\n\n**🍎 iOS**\n\n- Add support for iOS app-language preference.\n\n**🌐 Localization**\n\n- \\<v1.16.9+77\\> Update Spanish l10n translation, thanks to Patricio Carrau's contribution on Weblate.\n\n**🧹 Others**\n\n- \\<v1.16.9+77\\> chore: bump dependencies. (#267)\n\n**📝 Documentation**\n\n- Add Privacy Policy file.\n\n---\n\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.7+74...v1.16.10+78",
-          "minOSVersion": "12.0"
-        }
       ],
       "appPermissions": {
         "entitlements": [ ],
