@@ -1,12 +1,43 @@
 {
   "name": "FriesI23's Source",
   "subtitle": "All my app sources are here. Have fun!",
-  "description": "Hi, I am a full-stack individual developer who loves programming. If you like my projects, you can buy me a Coffee😺.",
+  "description": "Hi, I am a full-stack individual developer who loves programming. If you like my projects, you can buy me a Coffee 😺.\n\nhttps://buymeacoffee.com/d49cb87qgww",
   "iconURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/source-icon.png",
   "website": "https://github.com/FriesI23",
   "patreonURL": "https://buymeacoffee.com/d49cb87qgww",
   "tintColor": "#006493",
   "featuredApps": [],
-  "apps": [],
+  "apps": [
+    {
+      "name": "Table Habit",
+      "bundleIdentifier": "io.github.friesi23.mhabit",
+      "marketplaceID": "",
+      "developerName": "Fries_I23",
+      "subtitle": "Your habit growth journey",
+      "localizedDescription": "\"Table Habit\" is an app that helps you establish and track your own micro habit. Its includes a complete set of growth curves and charts to help you establish habits more effectively.\n\nKey Features:\n• Scoring system to help you develop your own micro habits\n• Supports both positive and negative habits\n• Easy-to-use check-in UI\n• Color-coded habits for quick visual distinction\n• Import and export habits using a human-readable JSON format\n• Material You design\n• Optimized for landscape and large-screen devices\n• [Experimental] WebDAV sync support for cross-device syncing\n• No ads\n\nMoreover, this app completely open source.\n\nGot source code from: https://github.com/FriesI23/mhabit\n",
+      "iconURL": "https://raw.githubusercontent.com/FriesI23/mhabit/refs/heads/main/assets/logo/icon-1024x1024.png",
+      "tintColor": "#006493",
+      "category": "lifestyle",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.10%2B78/mhabit-unsigned.ipa",
+          "size": 28100000,
+          "version": "1.16.10",
+          "buildVersion": "78",
+          "date": "2025-05-08T09:14:00+08:00",
+          "localizedDescription": "# Release: v1.16.10+78\n\n**🐛 Bug Fixes**\n\n- \\<v1.16.9+77\\>: Show notification bar once app is loaded on iOS.\n- \\<v1.16.9+77\\>: Process duplicate uuid when re-calc habit record uuid. (#269)\n\n**🍎 iOS**\n\n- Add support for iOS app-language preference.\n\n**🌐 Localization**\n\n- \\<v1.16.9+77\\> Update Spanish l10n translation, thanks to Patricio Carrau's contribution on Weblate.\n\n**🧹 Others**\n\n- \\<v1.16.9+77\\> chore: bump dependencies. (#267)\n\n**📝 Documentation**\n\n- Add Privacy Policy file.\n\n---\n\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.7+74...v1.16.10+78",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "Privacy Policy": "see: https://github.com/FriesI23/mhabit/blob/main/PRIVACY.md"
+        }
+      },
+      "patreon": {}
+    }
+  ],
   "news": []
 }
