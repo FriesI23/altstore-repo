@@ -1,0 +1,64 @@
+name: Update AltStore/SideStore Source
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH_NAME: auto-ci
+    steps:
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Check Poetry version
+        run: poetry --version
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: $BRANCH_NAME
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout $BRANCH_NAME origin/$BRANCH_NAME
+
+      - name: Update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cd scripts/update_repo
+          poetry install
+          python update_repo.py -s ../../_site/repo/source.json
+          cd ../..
+          git commit -m "chore: update source on $(date +%Y-%m-%d)"
+          git push origin $BRANCH_NAME
+
+      - name: Create PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BASE_BRANCH_NAME: master
+        run: |
+          gh auth login --with-token <<< $GITHUB_TOKEN
+          if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
+            echo "Changes detected, creating PR..."
+            gh pr create \
+              --base "$BASE_BRANCH_NAME" \
+              --head "$BRANCH_NAME" \
+              --title "Auto Update source" \
+              --body "Automated update source on $(date +%Y-%m-%d)."
+          else
+            echo "No changes detected. Skipping PR creation."
+          fi
