@@ -1,0 +1,22 @@
+[project]
+name = "update-repo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Fries_I23",email = "FriesI23@outlook.com"}
+]
+license = {text = "MIT"}
+package-mode = false
+requires-python = ">=3.12"
+dependencies = [
+    "altparse (>=0.3.0,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^9.2.0"
+

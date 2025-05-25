@@ -1,7 +1,8 @@
 {
   "name": "FriesI23's Source",
+  "identifier": "io.github.friesi23.altstoreRepo",
   "subtitle": "All my app sources are here. Have fun!",
-  "description": "Hi, I am a full-stack individual developer who loves programming. If you like my projects, you can buy me a Coffee 😺.\n\nhttps://buymeacoffee.com/d49cb87qgww",
+  "description": "Hi, I am a full-stack individual developer who loves programming. If you like my projects, you can buy me a Coffee \ud83d\ude3a.\n\nhttps://buymeacoffee.com/d49cb87qgww",
   "iconURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/source-icon.png",
   "website": "https://github.com/FriesI23",
   "tintColor": "#006493",
@@ -14,7 +15,7 @@
       "bundleIdentifier": "io.github.friesi23.mhabit",
       "developerName": "Fries_I23",
       "subtitle": "Your habit growth journey",
-      "localizedDescription": "\"Table Habit\" is an app that helps you establish and track your own micro habit. Its includes a complete set of growth curves and charts to help you establish habits more effectively.\n\nKey Features:\n• Scoring system to help you develop your own micro habits\n• Supports both positive and negative habits\n• Easy-to-use check-in UI\n• Color-coded habits for quick visual distinction\n• Import and export habits using a human-readable JSON format\n• Material You design\n• Optimized for landscape and large-screen devices\n• [Experimental] WebDAV sync support for cross-device syncing\n• No ads\n\nMoreover, this app completely open source.\n\nGot source code from: https://github.com/FriesI23/mhabit\n",
+      "localizedDescription": "\"Table Habit\" is an app that helps you establish and track your own micro habit. Its includes a complete set of growth curves and charts to help you establish habits more effectively.\n\nKey Features:\n\u2022 Scoring system to help you develop your own micro habits\n\u2022 Supports both positive and negative habits\n\u2022 Easy-to-use check-in UI\n\u2022 Color-coded habits for quick visual distinction\n\u2022 Import and export habits using a human-readable JSON format\n\u2022 Material You design\n\u2022 Optimized for landscape and large-screen devices\n\u2022 [Experimental] WebDAV sync support for cross-device syncing\n\u2022 No ads\n\nMoreover, this app completely open source.\n\nGot source code from: https://github.com/FriesI23/mhabit\n",
       "iconURL": "https://raw.githubusercontent.com/FriesI23/mhabit/refs/heads/main/assets/logo/icon-1024x1024.png",
       "tintColor": "#006493",
       "category": "lifestyle",
@@ -68,22 +69,38 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.16.14+83",
+          "version": "1.16.14",
+          "date": "2025-05-24T07:19:47Z",
+          "size": 30011199,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.14%2B83/mhabit-unsigned.ipa",
+          "buildVersion": "83",
+          "sha256": "1c758b8f10861e38fc5c71c2d087c1cfbfc97042211a450da4319158eac6e0db",
+          "localizedDescription": "# v1.16.14+83\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.14+83\r\n\r\n**\u2728 New Features**\r\n\r\n- Enhance WebDAV sync: trigger in some scenarios when auto-sync is enabled (#278)\r\n  - Reduce delay duration before auto-sync after launch\r\n  - Add async debouncer utility\r\n  - Re-sync after switching app to background for some time\r\n  - Re-sync after habit status changes\r\n  - Re-sync after record changes\r\n- Add privacy declaration in app.\r\n- **[iOS]** Hide \"Donate Tile\" in iOS App Store's flavor.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic l10n translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian l10n translation, thank for Bora Yurt Page's contribution on Weblate.\r\n- Update Spanish l10n translation, thanks to \u00d3scar Fern\u00e1ndez D\u00edaz's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Bora \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Preck757's contribution on Github. (#281)\r\n- Update Contributor File.\r\n- Add hebrew languange support (need translate) from elid's request on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Migrate from `flutter_markdown` to `markdown_widget`, see [#162966](https://github.com/flutter/flutter/issues/162966) get more informations. (#272)\r\n- Refactor notification-related code (#275):\r\n  - Add localization for Android notification channel.\r\n  - Upgrade `flutter_local_notifications` to v19.\r\n  - Add Windows support for notifications (with limitations).\r\n- **[Android]** Set `AppDebugger` notification message to `ongoing`.\r\n- **[iOS]** Add China IPC in Application (l10n:zh-cn only).\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README file.\r\n\r\n---\r\n\r\n## New Contributors\r\n* @Preck757 made their first contribution in https://github.com/FriesI23/mhabit/pull/281\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.9+77...v1.16.14+83"
+        },
+        {
           "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.10%2B78/mhabit-unsigned.ipa",
           "size": 28100000,
           "version": "1.16.10",
           "buildVersion": "78",
           "date": "2025-05-08T09:14:00+08:00",
-          "localizedDescription": "# Release: v1.16.10+78\n\n**🐛 Bug Fixes**\n\n- \\<v1.16.9+77\\>: Show notification bar once app is loaded on iOS.\n- \\<v1.16.9+77\\>: Process duplicate uuid when re-calc habit record uuid. (#269)\n\n**🍎 iOS**\n\n- Add support for iOS app-language preference.\n\n**🌐 Localization**\n\n- \\<v1.16.9+77\\> Update Spanish l10n translation, thanks to Patricio Carrau's contribution on Weblate.\n\n**🧹 Others**\n\n- \\<v1.16.9+77\\> chore: bump dependencies. (#267)\n\n**📝 Documentation**\n\n- Add Privacy Policy file.\n\n---\n\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.7+74...v1.16.10+78",
+          "localizedDescription": "# Release: v1.16.10+78\n\n**\ud83d\udc1b Bug Fixes**\n\n- \\<v1.16.9+77\\>: Show notification bar once app is loaded on iOS.\n- \\<v1.16.9+77\\>: Process duplicate uuid when re-calc habit record uuid. (#269)\n\n**\ud83c\udf4e iOS**\n\n- Add support for iOS app-language preference.\n\n**\ud83c\udf10 Localization**\n\n- \\<v1.16.9+77\\> Update Spanish l10n translation, thanks to Patricio Carrau's contribution on Weblate.\n\n**\ud83e\uddf9 Others**\n\n- \\<v1.16.9+77\\> chore: bump dependencies. (#267)\n\n**\ud83d\udcdd Documentation**\n\n- Add Privacy Policy file.\n\n---\n\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.7+74...v1.16.10+78",
           "minOSVersion": "12.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [ ],
-        "privacy": {
-          "Privacy Policy": "see: https://github.com/FriesI23/mhabit/blob/main/PRIVACY.md"
-        }
-      }
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "io.github.friesi23.mhabit",
+      "version": "1.16.14",
+      "size": 30011199,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.14%2B83/mhabit-unsigned.ipa",
+      "versionDate": "2025-05-24T07:19:47Z",
+      "versionDescription": "# v1.16.14+83\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.14+83\r\n\r\n**\u2728 New Features**\r\n\r\n- Enhance WebDAV sync: trigger in some scenarios when auto-sync is enabled (#278)\r\n  - Reduce delay duration before auto-sync after launch\r\n  - Add async debouncer utility\r\n  - Re-sync after switching app to background for some time\r\n  - Re-sync after habit status changes\r\n  - Re-sync after record changes\r\n- Add privacy declaration in app.\r\n- **[iOS]** Hide \"Donate Tile\" in iOS App Store's flavor.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic l10n translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian l10n translation, thank for Bora Yurt Page's contribution on Weblate.\r\n- Update Spanish l10n translation, thanks to \u00d3scar Fern\u00e1ndez D\u00edaz's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Bora \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Preck757's contribution on Github. (#281)\r\n- Update Contributor File.\r\n- Add hebrew languange support (need translate) from elid's request on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Migrate from `flutter_markdown` to `markdown_widget`, see [#162966](https://github.com/flutter/flutter/issues/162966) get more informations. (#272)\r\n- Refactor notification-related code (#275):\r\n  - Add localization for Android notification channel.\r\n  - Upgrade `flutter_local_notifications` to v19.\r\n  - Add Windows support for notifications (with limitations).\r\n- **[Android]** Set `AppDebugger` notification message to `ongoing`.\r\n- **[iOS]** Add China IPC in Application (l10n:zh-cn only).\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README file.\r\n\r\n---\r\n\r\n## New Contributors\r\n* @Preck757 made their first contribution in https://github.com/FriesI23/mhabit/pull/281\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.9+77...v1.16.14+83",
+      "beta": false
     }
   ],
-  "news": [ ]
+  "news": [],
+  "apiVersion": "v2"
 }
