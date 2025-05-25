@@ -8,8 +8,6 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    env:
-      BRANCH_NAME: auto-ci
     steps:
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -27,21 +25,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: $BRANCH_NAME
+          ref: auto-ci
 
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout $BRANCH_NAME origin/$BRANCH_NAME
 
       - name: Update
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH_NAME: auto-ci
         run: |
           cd scripts/update_repo
           poetry install
-          python update_repo.py -s ../../_site/repo/source.json
+          poetry run python update_repo.py -s ../../_site/repo/source.json
           cd ../..
           git commit -m "chore: update source on $(date +%Y-%m-%d)"
           git push origin $BRANCH_NAME
@@ -50,6 +48,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BASE_BRANCH_NAME: master
+          BRANCH_NAME: auto-ci
         run: |
           gh auth login --with-token <<< $GITHUB_TOKEN
           if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
