@@ -2,7 +2,7 @@ name: Update AltStore/SideStore Source
 
 on:
   schedule:
-    - cron: "0 8 * * 1"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:
@@ -29,8 +29,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Fries_I23"
+          git config user.email "20661034+FriesI23@users.noreply.github.com"
 
       - name: Update
         env:
@@ -41,8 +41,12 @@ jobs:
           poetry install
           poetry run python update_repo.py -s ../../_site/repo/source.json
           cd ../..
-          git commit -m "chore: update source on $(date +%Y-%m-%d)"
-          git push origin $BRANCH_NAME
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update source on $(date +%Y-%m-%d)"
+            git push origin $BRANCH_NAME
+          else
+            echo "No changes to commit"
+          fi
 
       - name: Create PR
         env:
@@ -50,9 +54,10 @@ jobs:
           BASE_BRANCH_NAME: master
           BRANCH_NAME: auto-ci
         run: |
-          gh auth login --with-token <<< $GITHUB_TOKEN
+          git fetch origin $BASE_BRANCH_NAME
           if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
             echo "Changes detected, creating PR..."
+            gh auth login --with-token <<< $GITHUB_TOKEN
             gh pr create \
               --base "$BASE_BRANCH_NAME" \
               --head "$BRANCH_NAME" \
