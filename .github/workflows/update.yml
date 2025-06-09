@@ -58,7 +58,6 @@ jobs:
           git fetch origin $BASE_BRANCH_NAME
           if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
             echo "Changes detected, creating PR..."
-            gh auth login --with-token <<< $GITHUB_TOKEN
             gh pr create \
               --base "$BASE_BRANCH_NAME" \
               --head "$BRANCH_NAME" \
