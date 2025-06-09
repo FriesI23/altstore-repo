@@ -41,6 +41,7 @@ jobs:
           poetry install
           poetry run python update_repo.py -s ../../_site/repo/source.json
           cd ../..
+          git add _site/repo/source.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update source on $(date +%Y-%m-%d)"
             git push origin $BRANCH_NAME
