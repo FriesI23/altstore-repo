@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.16.17+86",
+          "version": "1.16.17",
+          "date": "2025-06-09T11:24:02Z",
+          "size": 32595783,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.17%2B86/mhabit-unsigned.ipa",
+          "buildVersion": "86",
+          "sha256": "6097101b2ea2241f93394f2bdaed87e0079d96041c6d0c4e171a71e04176c403",
+          "localizedDescription": "# v1.16.17+86\n\n# Release: 1.16.17+86\r\n\r\n**\u2728 New Features**\r\n\r\n- Add app network sync notification support (#287)\r\n  - add network sync notification for Android / iOS / macOS / Windows / Linux\r\n  - add in-app notification config for non-android\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Russian l10n translation, thanks to Yurt Page's contribution on Weblate.\r\n- Update Turkish l10n translation, thanks to Bora At\u0131c\u0131 and Soykan Ayd\u0131n for their contributions on Weblate.\r\n- Update Ukrainian l10n translation, thank for PavloPogonets's contribution on Github.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.14+83...v1.16.17+86"
+        },
+        {
           "absoluteVersion": "1.16.14+83",
           "version": "1.16.14",
           "date": "2025-05-24T07:19:47Z",
@@ -93,11 +103,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.16.14",
-      "size": 30011199,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.14%2B83/mhabit-unsigned.ipa",
-      "versionDate": "2025-05-24T07:19:47Z",
-      "versionDescription": "# v1.16.14+83\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.14+83\r\n\r\n**\u2728 New Features**\r\n\r\n- Enhance WebDAV sync: trigger in some scenarios when auto-sync is enabled (#278)\r\n  - Reduce delay duration before auto-sync after launch\r\n  - Add async debouncer utility\r\n  - Re-sync after switching app to background for some time\r\n  - Re-sync after habit status changes\r\n  - Re-sync after record changes\r\n- Add privacy declaration in app.\r\n- **[iOS]** Hide \"Donate Tile\" in iOS App Store's flavor.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic l10n translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian l10n translation, thank for Bora Yurt Page's contribution on Weblate.\r\n- Update Spanish l10n translation, thanks to \u00d3scar Fern\u00e1ndez D\u00edaz's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Bora \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Update Ukrainian l10n translation, thank for Preck757's contribution on Github. (#281)\r\n- Update Contributor File.\r\n- Add hebrew languange support (need translate) from elid's request on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Migrate from `flutter_markdown` to `markdown_widget`, see [#162966](https://github.com/flutter/flutter/issues/162966) get more informations. (#272)\r\n- Refactor notification-related code (#275):\r\n  - Add localization for Android notification channel.\r\n  - Upgrade `flutter_local_notifications` to v19.\r\n  - Add Windows support for notifications (with limitations).\r\n- **[Android]** Set `AppDebugger` notification message to `ongoing`.\r\n- **[iOS]** Add China IPC in Application (l10n:zh-cn only).\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README file.\r\n\r\n---\r\n\r\n## New Contributors\r\n* @Preck757 made their first contribution in https://github.com/FriesI23/mhabit/pull/281\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.9+77...v1.16.14+83",
+      "version": "1.16.17",
+      "size": 32595783,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.17%2B86/mhabit-unsigned.ipa",
+      "versionDate": "2025-06-09T11:24:02Z",
+      "versionDescription": "# v1.16.17+86\n\n# Release: 1.16.17+86\r\n\r\n**\u2728 New Features**\r\n\r\n- Add app network sync notification support (#287)\r\n  - add network sync notification for Android / iOS / macOS / Windows / Linux\r\n  - add in-app notification config for non-android\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Russian l10n translation, thanks to Yurt Page's contribution on Weblate.\r\n- Update Turkish l10n translation, thanks to Bora At\u0131c\u0131 and Soykan Ayd\u0131n for their contributions on Weblate.\r\n- Update Ukrainian l10n translation, thank for PavloPogonets's contribution on Github.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.14+83...v1.16.17+86",
       "beta": false
     }
   ],
