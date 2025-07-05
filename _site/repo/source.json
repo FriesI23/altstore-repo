@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.16.20+89",
+          "version": "1.16.20",
+          "date": "2025-07-04T10:22:41Z",
+          "size": 32597213,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.20%2B89/mhabit-unsigned.ipa",
+          "buildVersion": "89",
+          "sha256": "21930e32834b59906318b240a77fd900f71a11635b143e6385919d29f3fd5e26",
+          "localizedDescription": "# v1.16.20+89\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.20+89\r\n\r\n<!-- **\u2728 New Features** -->\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Fix type in English l10n, thank for PavloPogonets's contribution on Github.\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Handled missing getetag property on some WebDAV servers (#298)\r\n- Fix synchronization issues in airplane mode (#295)\r\n- Ensure ARB files endwith newline\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add documentation example for WebDAV synchronization (#292)\r\n- Update README.md\r\n\r\n---\r\n\r\n## New Contributors\r\n* @matbgn made their first contribution in https://github.com/FriesI23/mhabit/pull/292\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.17+86...v1.16.20+89"
+        },
+        {
           "absoluteVersion": "1.16.17+86",
           "version": "1.16.17",
           "date": "2025-06-09T11:24:02Z",
@@ -103,11 +113,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.16.17",
-      "size": 32595783,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.17%2B86/mhabit-unsigned.ipa",
-      "versionDate": "2025-06-09T11:24:02Z",
-      "versionDescription": "# v1.16.17+86\n\n# Release: 1.16.17+86\r\n\r\n**\u2728 New Features**\r\n\r\n- Add app network sync notification support (#287)\r\n  - add network sync notification for Android / iOS / macOS / Windows / Linux\r\n  - add in-app notification config for non-android\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Russian l10n translation, thanks to Yurt Page's contribution on Weblate.\r\n- Update Turkish l10n translation, thanks to Bora At\u0131c\u0131 and Soykan Ayd\u0131n for their contributions on Weblate.\r\n- Update Ukrainian l10n translation, thank for PavloPogonets's contribution on Github.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.14+83...v1.16.17+86",
+      "version": "1.16.20",
+      "size": 32597213,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.20%2B89/mhabit-unsigned.ipa",
+      "versionDate": "2025-07-04T10:22:41Z",
+      "versionDescription": "# v1.16.20+89\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.20+89\r\n\r\n<!-- **\u2728 New Features** -->\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Fix type in English l10n, thank for PavloPogonets's contribution on Github.\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Handled missing getetag property on some WebDAV servers (#298)\r\n- Fix synchronization issues in airplane mode (#295)\r\n- Ensure ARB files endwith newline\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add documentation example for WebDAV synchronization (#292)\r\n- Update README.md\r\n\r\n---\r\n\r\n## New Contributors\r\n* @matbgn made their first contribution in https://github.com/FriesI23/mhabit/pull/292\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.17+86...v1.16.20+89",
       "beta": false
     }
   ],
