@@ -57,12 +57,20 @@ jobs:
         run: |
           git fetch origin $BASE_BRANCH_NAME
           if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
-            echo "Changes detected, creating PR..."
-            gh pr create \
+            EXISTING_PR=$(gh pr list --base "$BASE_BRANCH_NAME" --head "$BRANCH_NAME" --state open --json number --jq '.[0].number')
+
+            NEW_PR_NUMBER=$(gh pr create \
               --base "$BASE_BRANCH_NAME" \
               --head "$BRANCH_NAME" \
               --title "Auto Update source" \
-              --body "Automated update source on $(date +%Y-%m-%d)."
+              --body "Automated update source on $(date +%Y-%m-%d)." \
+              --json number \
+              --jq .number)
+
+            if [ -n "$EXISTING_PR" ]; then
+              gh pr comment "$EXISTING_PR" --body "Auto-closing in favor of #$NEW_PR_NUMBER."
+              gh pr close "$EXISTING_PR"
+            fi
           else
             echo "No changes detected. Skipping PR creation."
           fi
