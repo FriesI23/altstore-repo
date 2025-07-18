@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.16.22+91",
+          "version": "1.16.22",
+          "date": "2025-07-16T08:01:20Z",
+          "size": 32601332,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.22%2B91/mhabit-unsigned.ipa",
+          "buildVersion": "91",
+          "sha256": "b4d05fe712bcd7c0ad37570313d55e347623bb2ef71cfe6ca26cd274c822f861",
+          "localizedDescription": "# v1.16.22+91\n\n# Released: v1.16.22+91\r\n\r\n**\u2728 New Features**\r\n\r\n- Show UI feedback on habit deletion (#303)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian translation, thanks to Yurt Page's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Add Flatpak support (#304)\r\n- Bump dependencies (#306)\r\n- Prepare for Flathub submission (#307)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Enhance Linux build instructions (#291)\r\n\r\n---\r\n\r\n## How to install Flatpak Bundle\r\n\r\n> see: [Single-file bundles](https://docs.flatpak.org/en/latest/single-file-bundles.html)\r\n\r\nTLDR:\r\n\r\n```shell\r\nflatpak install --user mhabit-<arch>.flatpak -y\r\n```\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.20+89...v1.16.22+91"
+        },
+        {
           "absoluteVersion": "1.16.20+89",
           "version": "1.16.20",
           "date": "2025-07-04T10:22:41Z",
@@ -113,11 +123,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.16.20",
-      "size": 32597213,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.20%2B89/mhabit-unsigned.ipa",
-      "versionDate": "2025-07-04T10:22:41Z",
-      "versionDescription": "# v1.16.20+89\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Release: 1.16.20+89\r\n\r\n<!-- **\u2728 New Features** -->\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Fix type in English l10n, thank for PavloPogonets's contribution on Github.\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Handled missing getetag property on some WebDAV servers (#298)\r\n- Fix synchronization issues in airplane mode (#295)\r\n- Ensure ARB files endwith newline\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add documentation example for WebDAV synchronization (#292)\r\n- Update README.md\r\n\r\n---\r\n\r\n## New Contributors\r\n* @matbgn made their first contribution in https://github.com/FriesI23/mhabit/pull/292\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.17+86...v1.16.20+89",
+      "version": "1.16.22",
+      "size": 32601332,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.22%2B91/mhabit-unsigned.ipa",
+      "versionDate": "2025-07-16T08:01:20Z",
+      "versionDescription": "# v1.16.22+91\n\n# Released: v1.16.22+91\r\n\r\n**\u2728 New Features**\r\n\r\n- Show UI feedback on habit deletion (#303)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian translation, thanks to Yurt Page's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Add Flatpak support (#304)\r\n- Bump dependencies (#306)\r\n- Prepare for Flathub submission (#307)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Enhance Linux build instructions (#291)\r\n\r\n---\r\n\r\n## How to install Flatpak Bundle\r\n\r\n> see: [Single-file bundles](https://docs.flatpak.org/en/latest/single-file-bundles.html)\r\n\r\nTLDR:\r\n\r\n```shell\r\nflatpak install --user mhabit-<arch>.flatpak -y\r\n```\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.20+89...v1.16.22+91",
       "beta": false
     }
   ],
