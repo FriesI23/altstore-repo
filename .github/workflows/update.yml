@@ -59,13 +59,12 @@ jobs:
           if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
             EXISTING_PR=$(gh pr list --base "$BASE_BRANCH_NAME" --head "$BRANCH_NAME" --state open --json number --jq '.[0].number')
 
-            NEW_PR_NUMBER=$(gh pr create \
+            PR_URL=$(gh pr create \
               --base "$BASE_BRANCH_NAME" \
               --head "$BRANCH_NAME" \
               --title "Auto Update source" \
-              --body "Automated update source on $(date +%Y-%m-%d)." \
-              --json number \
-              --jq .number)
+              --body "Automated update source on $(date +%Y-%m-%d).")
+            NEW_PR_NUMBER=$(echo "$PR_URL" | grep -oE '[0-9]+$')
 
             if [ -n "$EXISTING_PR" ]; then
               gh pr comment "$EXISTING_PR" --body "Auto-closing in favor of #$NEW_PR_NUMBER."
