@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.17.2+95",
+          "version": "1.17.2",
+          "date": "2025-08-14T07:54:33Z",
+          "size": 32648786,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.2%2B95/mhabit-unsigned.ipa",
+          "buildVersion": "95",
+          "sha256": "755e05054bf19cd5179dcdfc41c7de183b038aba2321c62fc933b2c59625681e",
+          "localizedDescription": "# v1.17.2+95\n\n# Released: v1.17.2+95\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Bump Flutter version to v3.29.3 (#315)\r\n- Bump package dependencies (#316)\r\n  - Upgrade `share_plus` to 11.1.0 (major)\r\n  - Upgrade `data_saver` to 0.4.0 (major)\r\n  - Upgrade `fl_chart` to 1.0.0 (major)\r\n  - Upgrade `copy_with_extension_gen` to v6 (major)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add [Github Wiki](https://github.com/FriesI23/mhabit/wiki) (#312, #313)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.22+91...v1.17.2+95"
+        },
+        {
           "absoluteVersion": "1.16.22+91",
           "version": "1.16.22",
           "date": "2025-07-16T08:01:20Z",
@@ -123,11 +133,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.16.22",
-      "size": 32601332,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.16.22%2B91/mhabit-unsigned.ipa",
-      "versionDate": "2025-07-16T08:01:20Z",
-      "versionDescription": "# v1.16.22+91\n\n# Released: v1.16.22+91\r\n\r\n**\u2728 New Features**\r\n\r\n- Show UI feedback on habit deletion (#303)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Update Russian translation, thanks to Yurt Page's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to PavloPogonets's contribution on Github.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Add Flatpak support (#304)\r\n- Bump dependencies (#306)\r\n- Prepare for Flathub submission (#307)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Enhance Linux build instructions (#291)\r\n\r\n---\r\n\r\n## How to install Flatpak Bundle\r\n\r\n> see: [Single-file bundles](https://docs.flatpak.org/en/latest/single-file-bundles.html)\r\n\r\nTLDR:\r\n\r\n```shell\r\nflatpak install --user mhabit-<arch>.flatpak -y\r\n```\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.20+89...v1.16.22+91",
+      "version": "1.17.2",
+      "size": 32648786,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.2%2B95/mhabit-unsigned.ipa",
+      "versionDate": "2025-08-14T07:54:33Z",
+      "versionDescription": "# v1.17.2+95\n\n# Released: v1.17.2+95\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Bump Flutter version to v3.29.3 (#315)\r\n- Bump package dependencies (#316)\r\n  - Upgrade `share_plus` to 11.1.0 (major)\r\n  - Upgrade `data_saver` to 0.4.0 (major)\r\n  - Upgrade `fl_chart` to 1.0.0 (major)\r\n  - Upgrade `copy_with_extension_gen` to v6 (major)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add [Github Wiki](https://github.com/FriesI23/mhabit/wiki) (#312, #313)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.22+91...v1.17.2+95",
       "beta": false
     }
   ],
