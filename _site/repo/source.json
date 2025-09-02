@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.17.5+98",
+          "version": "1.17.5",
+          "date": "2025-09-02T03:29:24Z",
+          "size": 32646549,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.5%2B98/mhabit-unsigned.ipa",
+          "buildVersion": "98",
+          "sha256": "d7459801788c8abc28ca1fc35ba30ccd5b198b8e2736e655d19e4893399dbf2f",
+          "localizedDescription": "# v1.17.5+98\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.5+98\r\n\r\n**\u2728 New Features**\r\n\r\n- Cancel noti-permission request at app launch on iOS/macOS (#323)\r\n- Add leading zero in date option (#325)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Polish translation, thanks to Pandaman331's contribution on Weblate. (#324)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Improve hint visibility under low brightness (#321)\r\n- Move vscode workspace settings to code-workspace (#322)\r\n- Implement Windows custom flavor support (#327, #330)\r\n- Add conditional check for windows build test (#327)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Wiki: Add variable-based flavor support for Windows platform\r\n- Wiki: Document how the score works (#331)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.2+95...v1.17.5+98"
+        },
+        {
           "absoluteVersion": "1.17.2+95",
           "version": "1.17.2",
           "date": "2025-08-14T07:54:33Z",
@@ -133,11 +143,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.17.2",
-      "size": 32648786,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.2%2B95/mhabit-unsigned.ipa",
-      "versionDate": "2025-08-14T07:54:33Z",
-      "versionDescription": "# v1.17.2+95\n\n# Released: v1.17.2+95\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate.\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Bump Flutter version to v3.29.3 (#315)\r\n- Bump package dependencies (#316)\r\n  - Upgrade `share_plus` to 11.1.0 (major)\r\n  - Upgrade `data_saver` to 0.4.0 (major)\r\n  - Upgrade `fl_chart` to 1.0.0 (major)\r\n  - Upgrade `copy_with_extension_gen` to v6 (major)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Add [Github Wiki](https://github.com/FriesI23/mhabit/wiki) (#312, #313)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.16.22+91...v1.17.2+95",
+      "version": "1.17.5",
+      "size": 32646549,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.5%2B98/mhabit-unsigned.ipa",
+      "versionDate": "2025-09-02T03:29:24Z",
+      "versionDescription": "# v1.17.5+98\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.5+98\r\n\r\n**\u2728 New Features**\r\n\r\n- Cancel noti-permission request at app launch on iOS/macOS (#323)\r\n- Add leading zero in date option (#325)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Polish translation, thanks to Pandaman331's contribution on Weblate. (#324)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Improve hint visibility under low brightness (#321)\r\n- Move vscode workspace settings to code-workspace (#322)\r\n- Implement Windows custom flavor support (#327, #330)\r\n- Add conditional check for windows build test (#327)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Wiki: Add variable-based flavor support for Windows platform\r\n- Wiki: Document how the score works (#331)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.2+95...v1.17.5+98",
       "beta": false
     }
   ],
