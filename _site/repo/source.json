@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.17.8+100",
+          "version": "1.17.8",
+          "date": "2025-09-18T00:59:45Z",
+          "size": 32665028,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.8%2B100/mhabit-unsigned.ipa",
+          "buildVersion": "100",
+          "sha256": "b0ecb32e2f4b29b6ede10988e9f37fae59a3a940fb6ef3e0eb10ba3b9744dff0",
+          "localizedDescription": "# v1.17.8+100\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.8+100\r\n\r\n**\u2728 New Features**\r\n\r\n- Show snackbar after exporting habits. (#337)\r\n- Add localization support to Experimental Features bar. (#337)\r\n- Enable navigation from debugger notifications. (#337)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hebrew translation, thanks to Omer I.S's contribution on Weblate.\r\n- Updated Portuguese translation, thanks to Nikolas Gon\u00e7alves dos Santos's contribution on Weblate.\r\n- Updated Spain translation, thank to Andres Blasco Arn\u00e1iz's contribution on weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Apply flavor settings to Windows notifications. (#337)\r\n- Bump package dependencies (#342)\r\n- Refactor GitHub Workflows (#343)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Simplify TODO markers in notification code.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.5+98...v1.17.8+100"
+        },
+        {
           "absoluteVersion": "1.17.5+98",
           "version": "1.17.5",
           "date": "2025-09-02T03:29:24Z",
@@ -143,11 +153,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.17.5",
-      "size": 32646549,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.5%2B98/mhabit-unsigned.ipa",
-      "versionDate": "2025-09-02T03:29:24Z",
-      "versionDescription": "# v1.17.5+98\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.5+98\r\n\r\n**\u2728 New Features**\r\n\r\n- Cancel noti-permission request at app launch on iOS/macOS (#323)\r\n- Add leading zero in date option (#325)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Polish translation, thanks to Pandaman331's contribution on Weblate. (#324)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Improve hint visibility under low brightness (#321)\r\n- Move vscode workspace settings to code-workspace (#322)\r\n- Implement Windows custom flavor support (#327, #330)\r\n- Add conditional check for windows build test (#327)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Wiki: Add variable-based flavor support for Windows platform\r\n- Wiki: Document how the score works (#331)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.2+95...v1.17.5+98",
+      "version": "1.17.8",
+      "size": 32665028,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.8%2B100/mhabit-unsigned.ipa",
+      "versionDate": "2025-09-18T00:59:45Z",
+      "versionDescription": "# v1.17.8+100\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.8+100\r\n\r\n**\u2728 New Features**\r\n\r\n- Show snackbar after exporting habits. (#337)\r\n- Add localization support to Experimental Features bar. (#337)\r\n- Enable navigation from debugger notifications. (#337)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hebrew translation, thanks to Omer I.S's contribution on Weblate.\r\n- Updated Portuguese translation, thanks to Nikolas Gon\u00e7alves dos Santos's contribution on Weblate.\r\n- Updated Spain translation, thank to Andres Blasco Arn\u00e1iz's contribution on weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Apply flavor settings to Windows notifications. (#337)\r\n- Bump package dependencies (#342)\r\n- Refactor GitHub Workflows (#343)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Simplify TODO markers in notification code.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.5+98...v1.17.8+100",
       "beta": false
     }
   ],
