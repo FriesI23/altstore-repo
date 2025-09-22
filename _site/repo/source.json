@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.17.10+102",
+          "version": "1.17.10",
+          "date": "2025-09-22T01:18:44Z",
+          "size": 32665143,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.10%2B102/mhabit-unsigned.ipa",
+          "buildVersion": "102",
+          "sha256": "0e6849fd8e9cf73e4ea433a6a50a71ef76fda5c2b5094ccc0d5c5221d70b1e53",
+          "localizedDescription": "# v1.17.10+102\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: 1.17.10+102\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Downgrade AGP to 8.11.1 due to fdroid incompatibility with >=8.12 (#347)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.8+100...v1.17.10+102"
+        },
+        {
           "absoluteVersion": "1.17.8+100",
           "version": "1.17.8",
           "date": "2025-09-18T00:59:45Z",
@@ -153,11 +163,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.17.8",
-      "size": 32665028,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.8%2B100/mhabit-unsigned.ipa",
-      "versionDate": "2025-09-18T00:59:45Z",
-      "versionDescription": "# v1.17.8+100\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.17.8+100\r\n\r\n**\u2728 New Features**\r\n\r\n- Show snackbar after exporting habits. (#337)\r\n- Add localization support to Experimental Features bar. (#337)\r\n- Enable navigation from debugger notifications. (#337)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hebrew translation, thanks to Omer I.S's contribution on Weblate.\r\n- Updated Portuguese translation, thanks to Nikolas Gon\u00e7alves dos Santos's contribution on Weblate.\r\n- Updated Spain translation, thank to Andres Blasco Arn\u00e1iz's contribution on weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Apply flavor settings to Windows notifications. (#337)\r\n- Bump package dependencies (#342)\r\n- Refactor GitHub Workflows (#343)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Simplify TODO markers in notification code.\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.5+98...v1.17.8+100",
+      "version": "1.17.10",
+      "size": 32665143,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.10%2B102/mhabit-unsigned.ipa",
+      "versionDate": "2025-09-22T01:18:44Z",
+      "versionDescription": "# v1.17.10+102\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: 1.17.10+102\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Downgrade AGP to 8.11.1 due to fdroid incompatibility with >=8.12 (#347)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.8+100...v1.17.10+102",
       "beta": false
     }
   ],
