@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.18.0+106",
+          "version": "1.18.0",
+          "date": "2025-10-17T01:23:37Z",
+          "size": 32667636,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.18.0%2B106/mhabit-unsigned.ipa",
+          "buildVersion": "106",
+          "sha256": "eafb97b66b4d14a92fbe00cbec22eaf30399b36e08980bce0b1d68a5884aba4d",
+          "localizedDescription": "# v1.18.0+106\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.18.0+106\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Updated Spain translation, thank to Andres Blasco Arn\u00e1iz's contribution on weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix App Sync Form to Keep Local Password on UI Changes (#368)\r\n  - Numbers changes can be saved on iOS/iPadOS (#351)\r\n- Refactor Project Code:\r\n  - Adjusted project code directory structure (#353)\r\n  - Refactored App Sync Server Form with MVVM architecture (#364)\r\n  - Refactored Habit Form with MVVM architecture (#366)\r\n  - Refactor Habit Status Changer Structure and Logic (#369)\r\n  - Refactor Habit Summary Structure and Logic (#370)\r\n  - Refactor Miscellaneous Code Cleanup (#371)\r\n    - Move Habit Status Changer Dispatcher Back to ViewModel\r\n    - Decouple Providers from Material and Widgets\r\n    - Decouple Models from Material and Widgets\r\n  - Refactor Separate UI Logic (#372)\r\n    - Replace Material and Widgets Exports with Specific Imports\r\n    - Separate Scroll Behavior Logic from ViewModel\r\n    - Separate Material Theme Logic from ViewModel\r\n    - Separate ShowDialog from ViewModel\r\n  - Refactor Habit Data Flow with Dispatcher (#374)\r\n  - Refactor Move onDailyGoalTextInputChanged to Habit Input Helper\r\n- [Github Action]: Added pre-release cleanup CI for app release\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.10+102...v1.18.0+106"
+        },
+        {
           "absoluteVersion": "1.17.10+102",
           "version": "1.17.10",
           "date": "2025-09-22T01:18:44Z",
@@ -163,11 +173,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.17.10",
-      "size": 32665143,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.17.10%2B102/mhabit-unsigned.ipa",
-      "versionDate": "2025-09-22T01:18:44Z",
-      "versionDescription": "# v1.17.10+102\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: 1.17.10+102\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Downgrade AGP to 8.11.1 due to fdroid incompatibility with >=8.12 (#347)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.8+100...v1.17.10+102",
+      "version": "1.18.0",
+      "size": 32667636,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.18.0%2B106/mhabit-unsigned.ipa",
+      "versionDate": "2025-10-17T01:23:37Z",
+      "versionDescription": "# v1.18.0+106\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.18.0+106\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate.\r\n- Updated Spain translation, thank to Andres Blasco Arn\u00e1iz's contribution on weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix App Sync Form to Keep Local Password on UI Changes (#368)\r\n  - Numbers changes can be saved on iOS/iPadOS (#351)\r\n- Refactor Project Code:\r\n  - Adjusted project code directory structure (#353)\r\n  - Refactored App Sync Server Form with MVVM architecture (#364)\r\n  - Refactored Habit Form with MVVM architecture (#366)\r\n  - Refactor Habit Status Changer Structure and Logic (#369)\r\n  - Refactor Habit Summary Structure and Logic (#370)\r\n  - Refactor Miscellaneous Code Cleanup (#371)\r\n    - Move Habit Status Changer Dispatcher Back to ViewModel\r\n    - Decouple Providers from Material and Widgets\r\n    - Decouple Models from Material and Widgets\r\n  - Refactor Separate UI Logic (#372)\r\n    - Replace Material and Widgets Exports with Specific Imports\r\n    - Separate Scroll Behavior Logic from ViewModel\r\n    - Separate Material Theme Logic from ViewModel\r\n    - Separate ShowDialog from ViewModel\r\n  - Refactor Habit Data Flow with Dispatcher (#374)\r\n  - Refactor Move onDailyGoalTextInputChanged to Habit Input Helper\r\n- [Github Action]: Added pre-release cleanup CI for app release\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.17.10+102...v1.18.0+106",
       "beta": false
     }
   ],
