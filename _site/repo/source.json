@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.20.0+111",
+          "version": "1.20.0",
+          "date": "2025-10-29T08:38:44Z",
+          "size": 32746034,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.0%2B111/mhabit-unsigned.ipa",
+          "buildVersion": "111",
+          "sha256": "924b995c6c31808853951f63eb5dadd6509d89cbff1adf07953ae97429dec370",
+          "localizedDescription": "# v1.20.0+111\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.0+111\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature[v1.19.0+109]: Quick Search (#385)\r\n- Feature: Add advance search filter (#392)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Polish translation, thanks to croozer4's contributions on Github\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Keep loading indicator visible while scrolling (#395)\r\n- Chore: Enable `Quick Search` experimental feature by default\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Doc: Update Application Description files\r\n\r\n---\r\n\r\n## New Contributors\r\n* @croozer4 made their first contribution in https://github.com/FriesI23/mhabit/pull/393\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.18.0+106...v1.20.0+111"
+        },
+        {
           "absoluteVersion": "1.19.0+109",
           "version": "1.19.0",
           "date": "2025-10-26T08:22:04Z",
@@ -183,11 +193,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.19.0",
-      "size": 32694123,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.19.0%2B109/mhabit-unsigned.ipa",
-      "versionDate": "2025-10-26T08:22:04Z",
-      "versionDescription": "# v1.19.0+109\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.19.0+109\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Quick Search (#385)\r\n  - Added an experimental feature switch\r\n  - Added a new search bar\r\n  - Added a flexible UI layout\r\n  - Improved UI refresh logic to ensure the state updates correctly\r\n  - Separated the calendar bar from the main view\r\n  - Removed RouteAware to simplify route management\r\n- Cleanup: Removed App Sync experimental feature switch (#386)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Turkish translation, thanks to Soykan Ayd\u0131n's contributions on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix: Skip redundant data loading on the `Habit Display` page (#383)\r\n- Fix: Rebuilt `ColorScheme.fromSeed` when dynamic colors are active (#384)\r\n- Fix: Ensure search mode exit correctly after submit (#388)\r\n- Refactor: Moved App Sync experimental feature switches to a separate provider (#381)\r\n- Refactor: Extracted AppBar build logic from the main page (#382)\r\n- Chore: Bumped dependency versions\r\n- Chore(CI): Add conditional execution for test-build label (#389)\r\n- Doc(Wiki): Update donors\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.18.0+106...v1.19.0+109",
+      "version": "1.20.0",
+      "size": 32746034,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.0%2B111/mhabit-unsigned.ipa",
+      "versionDate": "2025-10-29T08:38:44Z",
+      "versionDescription": "# v1.20.0+111\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.0+111\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature[v1.19.0+109]: Quick Search (#385)\r\n- Feature: Add advance search filter (#392)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Polish translation, thanks to croozer4's contributions on Github\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Keep loading indicator visible while scrolling (#395)\r\n- Chore: Enable `Quick Search` experimental feature by default\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Doc: Update Application Description files\r\n\r\n---\r\n\r\n## New Contributors\r\n* @croozer4 made their first contribution in https://github.com/FriesI23/mhabit/pull/393\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.18.0+106...v1.20.0+111",
       "beta": false
     }
   ],
