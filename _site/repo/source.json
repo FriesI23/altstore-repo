@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.20.1+115",
+          "version": "1.20.1",
+          "date": "2025-11-05T04:54:06Z",
+          "size": 32754228,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.1%2B115/mhabit-unsigned.ipa",
+          "buildVersion": "115",
+          "sha256": "bec269dbda00af47feec8e6590a82be82033b0012987b98ae1b4dfdcb27ea63c",
+          "localizedDescription": "# v1.20.1+115\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.1+115\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to maksim2005UKR's contribution on Weblate.\r\n- Updated Russian F-Droid description translation, thanks to an anonymous contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix: Prevent dispatcher reuse across layout/size changes\r\n- Refactor: Adopt new ViewModel call/invocation pattern (#405)\r\n  - Migrate habit_status_changer to habit_manager\r\n  - Migrate habit_edit to habit_manager\r\n  - Migrate import/export to habit_manager\r\n  - Replace status flags with event_bus pattern\r\n- Refactor: Enforce widget-local ViewModel boundaries (#400)\r\n  - Migrate habit_summary AppSync adapter to AppEvent\r\n  - Migrate habit_summary HabitsStatusChanger adapter to AppEvent\r\n- Refactor: Reduce Provider initialization boilerplate (#404)\r\n- Refactor: Habit module architecture cleanup\r\n  - Habit Status Changer (#397)\r\n    - Move list dispatcher to UI layer\r\n    - Switch from delegate to controller model\r\n  - Habit Display (#398)\r\n    - Move list dispatcher to UI layer\r\n  - Habit Summary ViewModel (#401)\r\n    - Move habit_summary logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Remove unused statuses\r\n  - Habit Detail ViewModel (#403)\r\n    - Move habit_detail logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename VM APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Decouple Habit Detail ViewModel dependencies\r\n    - Remove unused statuses\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.0+111...v1.20.1+115"
+        },
+        {
           "absoluteVersion": "1.20.0+111",
           "version": "1.20.0",
           "date": "2025-10-29T08:38:44Z",
@@ -193,11 +203,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.20.0",
-      "size": 32746034,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.0%2B111/mhabit-unsigned.ipa",
-      "versionDate": "2025-10-29T08:38:44Z",
-      "versionDescription": "# v1.20.0+111\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.0+111\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature[v1.19.0+109]: Quick Search (#385)\r\n- Feature: Add advance search filter (#392)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Polish translation, thanks to croozer4's contributions on Github\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Keep loading indicator visible while scrolling (#395)\r\n- Chore: Enable `Quick Search` experimental feature by default\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Doc: Update Application Description files\r\n\r\n---\r\n\r\n## New Contributors\r\n* @croozer4 made their first contribution in https://github.com/FriesI23/mhabit/pull/393\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.18.0+106...v1.20.0+111",
+      "version": "1.20.1",
+      "size": 32754228,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.1%2B115/mhabit-unsigned.ipa",
+      "versionDate": "2025-11-05T04:54:06Z",
+      "versionDescription": "# v1.20.1+115\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.1+115\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to maksim2005UKR's contribution on Weblate.\r\n- Updated Russian F-Droid description translation, thanks to an anonymous contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix: Prevent dispatcher reuse across layout/size changes\r\n- Refactor: Adopt new ViewModel call/invocation pattern (#405)\r\n  - Migrate habit_status_changer to habit_manager\r\n  - Migrate habit_edit to habit_manager\r\n  - Migrate import/export to habit_manager\r\n  - Replace status flags with event_bus pattern\r\n- Refactor: Enforce widget-local ViewModel boundaries (#400)\r\n  - Migrate habit_summary AppSync adapter to AppEvent\r\n  - Migrate habit_summary HabitsStatusChanger adapter to AppEvent\r\n- Refactor: Reduce Provider initialization boilerplate (#404)\r\n- Refactor: Habit module architecture cleanup\r\n  - Habit Status Changer (#397)\r\n    - Move list dispatcher to UI layer\r\n    - Switch from delegate to controller model\r\n  - Habit Display (#398)\r\n    - Move list dispatcher to UI layer\r\n  - Habit Summary ViewModel (#401)\r\n    - Move habit_summary logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Remove unused statuses\r\n  - Habit Detail ViewModel (#403)\r\n    - Move habit_detail logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename VM APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Decouple Habit Detail ViewModel dependencies\r\n    - Remove unused statuses\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.0+111...v1.20.1+115",
       "beta": false
     }
   ],
