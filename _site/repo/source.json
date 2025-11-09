@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.21.0+118",
+          "version": "1.21.0",
+          "date": "2025-11-09T03:18:07Z",
+          "size": 32764795,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.0%2B118/mhabit-unsigned.ipa",
+          "buildVersion": "118",
+          "sha256": "ee50f8daf3d10dc0b7e28da63fa8c8efb0ec17fbc38c7223adb56b6bfe077d80",
+          "localizedDescription": "# v1.21.0+118\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.21.0+118\r\n\r\n**\u2728 New Features**\r\n\r\n- Improve `habit_display` focus, scrolling, and keyboard action (#409)\r\n- Add global `UnfocusOnTap` wrapper (#410)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic translation, thanks to Abdelbasset Jabrane's contribution on Weblate\r\n- Add Portuguese (Brazil) F-Droid description translation, thanks to Jonathan Soares's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed auto-unfocus when tapping outside\r\n- Fixed calendar not collapsing on Android when scrolled to edge (#411)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.1+115...v1.21.0+118"
+        },
+        {
           "absoluteVersion": "1.20.1+115",
           "version": "1.20.1",
           "date": "2025-11-05T04:54:06Z",
@@ -203,11 +213,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.20.1",
-      "size": 32754228,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.20.1%2B115/mhabit-unsigned.ipa",
-      "versionDate": "2025-11-05T04:54:06Z",
-      "versionDescription": "# v1.20.1+115\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.20.1+115\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to maksim2005UKR's contribution on Weblate.\r\n- Updated Russian F-Droid description translation, thanks to an anonymous contribution on Weblate.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fix: Prevent dispatcher reuse across layout/size changes\r\n- Refactor: Adopt new ViewModel call/invocation pattern (#405)\r\n  - Migrate habit_status_changer to habit_manager\r\n  - Migrate habit_edit to habit_manager\r\n  - Migrate import/export to habit_manager\r\n  - Replace status flags with event_bus pattern\r\n- Refactor: Enforce widget-local ViewModel boundaries (#400)\r\n  - Migrate habit_summary AppSync adapter to AppEvent\r\n  - Migrate habit_summary HabitsStatusChanger adapter to AppEvent\r\n- Refactor: Reduce Provider initialization boilerplate (#404)\r\n- Refactor: Habit module architecture cleanup\r\n  - Habit Status Changer (#397)\r\n    - Move list dispatcher to UI layer\r\n    - Switch from delegate to controller model\r\n  - Habit Display (#398)\r\n    - Move list dispatcher to UI layer\r\n  - Habit Summary ViewModel (#401)\r\n    - Move habit_summary logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Remove unused statuses\r\n  - Habit Detail ViewModel (#403)\r\n    - Move habit_detail logic to habit_manager\r\n    - Clarify responsibility boundaries\r\n    - Unify/rename VM APIs: change_habit_status, change_record_status, change_record_value, etc.\r\n    - Decouple Habit Detail ViewModel dependencies\r\n    - Remove unused statuses\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.0+111...v1.20.1+115",
+      "version": "1.21.0",
+      "size": 32764795,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.0%2B118/mhabit-unsigned.ipa",
+      "versionDate": "2025-11-09T03:18:07Z",
+      "versionDescription": "# v1.21.0+118\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.21.0+118\r\n\r\n**\u2728 New Features**\r\n\r\n- Improve `habit_display` focus, scrolling, and keyboard action (#409)\r\n- Add global `UnfocusOnTap` wrapper (#410)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic translation, thanks to Abdelbasset Jabrane's contribution on Weblate\r\n- Add Portuguese (Brazil) F-Droid description translation, thanks to Jonathan Soares's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed auto-unfocus when tapping outside\r\n- Fixed calendar not collapsing on Android when scrolled to edge (#411)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.1+115...v1.21.0+118",
       "beta": false
     }
   ],
