@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.21.1+120",
+          "version": "1.21.1",
+          "date": "2025-11-20T02:00:57Z",
+          "size": 32766867,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.1%2B120/mhabit-unsigned.ipa",
+          "buildVersion": "120",
+          "sha256": "4031b146e36fcceb89a152072ed061a12e5115b55e57e7754135316093b40a72",
+          "localizedDescription": "# v1.21.1+120\n\n# Released: v1.21.1+120\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Spanish translation, thanks to Angel's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update README\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.21.0+118...v1.21.1+120"
+        },
+        {
           "absoluteVersion": "1.21.0+118",
           "version": "1.21.0",
           "date": "2025-11-09T03:18:07Z",
@@ -213,11 +223,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.21.0",
-      "size": 32764795,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.0%2B118/mhabit-unsigned.ipa",
-      "versionDate": "2025-11-09T03:18:07Z",
-      "versionDescription": "# v1.21.0+118\n\n<!-- markdownlint-disable MD036 -->\r\n<!--\r\nTitle: Pre-Released or Released: v1.2.3+xx\r\n-->\r\n\r\n# Released: v1.21.0+118\r\n\r\n**\u2728 New Features**\r\n\r\n- Improve `habit_display` focus, scrolling, and keyboard action (#409)\r\n- Add global `UnfocusOnTap` wrapper (#410)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Arabic translation, thanks to Abdelbasset Jabrane's contribution on Weblate\r\n- Add Portuguese (Brazil) F-Droid description translation, thanks to Jonathan Soares's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed auto-unfocus when tapping outside\r\n- Fixed calendar not collapsing on Android when scrolled to edge (#411)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.20.1+115...v1.21.0+118",
+      "version": "1.21.1",
+      "size": 32766867,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.1%2B120/mhabit-unsigned.ipa",
+      "versionDate": "2025-11-20T02:00:57Z",
+      "versionDescription": "# v1.21.1+120\n\n# Released: v1.21.1+120\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Spanish translation, thanks to Angel's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update README\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.21.0+118...v1.21.1+120",
       "beta": false
     }
   ],
