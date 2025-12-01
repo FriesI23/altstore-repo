@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.22.1+125",
+          "version": "1.22.1",
+          "date": "2025-12-01T02:19:54Z",
+          "size": 32846946,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.1%2B125/mhabit-unsigned.ipa",
+          "buildVersion": "125",
+          "sha256": "fdcbf1538a3fad16c5cc08c20362fe1cc076ffcf458c63ffe565ec5c80b57c2a",
+          "localizedDescription": "# v1.22.1+125\n\n# Released: v1.22.1+125\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Add Today Mode (#418)\r\n  - Add \u201cToday Mode\u201d \u2014 a clean, minimal UI for habit tracking\r\n  - Support bottom navigation bar to switch between views (today / habits)\r\n  - Habit Today supports both card and grid layouts\r\n  - Persist selected tab across app launches\r\n\r\n<blockquote>\r\n\r\n<img height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1d14622e-4f05-4e37-81cd-6e895a6c4de3\" />\r\n\r\n<img height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/be47f656-8e09-44e2-8557-fe0945820316\" />\r\n\r\n</blockquote>\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Hebrew translation, thanks to sudo-py-dev's contribution on Weblate (#421)\r\n- Add Japanese translation, thanks to the contribution from my friend shirleycrow (#423)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Use `MediaQuery.sizeOf(context)` for responsive layout sizing (#418)\r\n- Fixed: Apply UI logic cleanup and fixes from code review feedback (#418)\r\n- Fixed: Ensure Today page refreshes correctly when the date changes (#418)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.21.1+120...v1.22.1+125"
+        },
+        {
           "absoluteVersion": "1.21.1+120",
           "version": "1.21.1",
           "date": "2025-11-20T02:00:57Z",
@@ -223,11 +233,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.21.1",
-      "size": 32766867,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.21.1%2B120/mhabit-unsigned.ipa",
-      "versionDate": "2025-11-20T02:00:57Z",
-      "versionDescription": "# v1.21.1+120\n\n# Released: v1.21.1+120\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Spanish translation, thanks to Angel's contribution on Weblate\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update README\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.21.0+118...v1.21.1+120",
+      "version": "1.22.1",
+      "size": 32846946,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.1%2B125/mhabit-unsigned.ipa",
+      "versionDate": "2025-12-01T02:19:54Z",
+      "versionDescription": "# v1.22.1+125\n\n# Released: v1.22.1+125\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Add Today Mode (#418)\r\n  - Add \u201cToday Mode\u201d \u2014 a clean, minimal UI for habit tracking\r\n  - Support bottom navigation bar to switch between views (today / habits)\r\n  - Habit Today supports both card and grid layouts\r\n  - Persist selected tab across app launches\r\n\r\n<blockquote>\r\n\r\n<img height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1d14622e-4f05-4e37-81cd-6e895a6c4de3\" />\r\n\r\n<img height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/be47f656-8e09-44e2-8557-fe0945820316\" />\r\n\r\n</blockquote>\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Hebrew translation, thanks to sudo-py-dev's contribution on Weblate (#421)\r\n- Add Japanese translation, thanks to the contribution from my friend shirleycrow (#423)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Use `MediaQuery.sizeOf(context)` for responsive layout sizing (#418)\r\n- Fixed: Apply UI logic cleanup and fixes from code review feedback (#418)\r\n- Fixed: Ensure Today page refreshes correctly when the date changes (#418)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.21.1+120...v1.22.1+125",
       "beta": false
     }
   ],
