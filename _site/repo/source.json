@@ -26,8 +26,7 @@
           "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/3.png",
           "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/4.png",
           "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/5.png",
-          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/6.png",
-          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/7.png"
+          "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPhone/6.png"
         ],
         "ipad": [
           {
@@ -57,11 +56,6 @@
           },
           {
             "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/6.png",
-            "width": 2049,
-            "height": 1536
-          },
-          {
-            "imageURL": "https://raw.githubusercontent.com/FriesI23/altstore-repo/refs/heads/master/assets/io.github.friesi23.mhabit/iPad/7.png",
             "width": 2049,
             "height": 1536
           }
