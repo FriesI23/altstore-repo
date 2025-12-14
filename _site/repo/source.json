@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.22.6+133",
+          "version": "1.22.6",
+          "date": "2025-12-14T11:35:18Z",
+          "size": 32861032,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.6%2B133/mhabit-unsigned.ipa",
+          "buildVersion": "133",
+          "sha256": "b435569cc68913561282101247788af7ffeb1c302daf75de4349621e497723c3",
+          "localizedDescription": "# v1.22.6+133\n\n# Released: 1.22.6+133\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Add Custom Theme Color (#447)\r\n- Add Windows reminder support and enable repeated reminders (#450)\r\n- Add Linux reminder support and enable repeated reminders (#453)\r\n- WebDAV sync can create missing root folders recursively and show decoded paths (#454)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n- Add Ukrainian F-Droid/Google description translation, thanks to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Preparing to publish on Microsoft Store (#444)\r\n- Add multiple language support to MSIX (#448)\r\n- Add `Fastlane:android:update_play_store` lane with optional params\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README (#445)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.2+129...v1.22.6+133"
+        },
+        {
           "absoluteVersion": "1.22.2+129",
           "version": "1.22.2",
           "date": "2025-12-08T02:14:43Z",
@@ -237,11 +247,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.22.2",
-      "size": 32854905,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.2%2B129/mhabit-unsigned.ipa",
-      "versionDate": "2025-12-08T02:14:43Z",
-      "versionDescription": "# v1.22.2+129\n\n# Released: 1.22.2+129\r\n\r\n**\u2728 New Features**\r\n\r\n- Add thirdparty license tile icon (#431)\r\n- Show special image for empty search results (#436)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated French translation, thank to Massine Y's contribution on Weblate (#428)\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#428)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Exclude habits that haven\u2019t started yet from today\u2019s list (#435)\r\n- Fixed: Adjust part of UI on Today page (#434)\r\n- Fixed: Double tap at top edge on iPadOS 26 (#437)\r\n- Fixed: CJK and emoji do not display correctly on linux-arm64 (Execpt CJK rendered error in Flatpak sandbox) (#438)\r\n- Add fastlane on Android / iOS / macOS (#425, #426)\r\n- Mgrate `DateTime.now()` to `AppClock().now()` (#430)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.1+125...v1.22.2+129",
+      "version": "1.22.6",
+      "size": 32861032,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.6%2B133/mhabit-unsigned.ipa",
+      "versionDate": "2025-12-14T11:35:18Z",
+      "versionDescription": "# v1.22.6+133\n\n# Released: 1.22.6+133\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Add Custom Theme Color (#447)\r\n- Add Windows reminder support and enable repeated reminders (#450)\r\n- Add Linux reminder support and enable repeated reminders (#453)\r\n- WebDAV sync can create missing root folders recursively and show decoded paths (#454)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n- Add Ukrainian F-Droid/Google description translation, thanks to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Preparing to publish on Microsoft Store (#444)\r\n- Add multiple language support to MSIX (#448)\r\n- Add `Fastlane:android:update_play_store` lane with optional params\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README (#445)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.2+129...v1.22.6+133",
       "beta": false
     }
   ],
