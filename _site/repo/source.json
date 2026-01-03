@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.22.8+135",
+          "version": "1.22.8",
+          "date": "2026-01-03T13:56:10Z",
+          "size": 32897797,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.8%2B135/mhabit-unsigned.ipa",
+          "buildVersion": "135",
+          "sha256": "cb0db4c6352c7a2d1899582246bdea5c3afb37a0efe3dc93a4d944864e2df6bb",
+          "localizedDescription": "# v1.22.8+135\n\n# Released: 1.22.8+135\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hungarian translation, thank to peterczegledy's contribution on Github (#462)\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#459)\r\n- Updated Vietnamese translation, thank to Loc Huynh\u2019s contribution on Weblate (#467)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Prevent loading from getting stuck by safely handling errors\r\n- Fixed: Trigger `RefreshIndicator` on sync start\r\n- Fixed: Add localized app name for the Play Store version (#472)\r\n- Bump fastlane dependencies\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README.md (#463)\r\n\r\n## New Contributors\r\n* @peterczegledy made their first contribution in https://github.com/FriesI23/mhabit/pull/462\r\n* @dependabot[bot] made their first contribution in https://github.com/FriesI23/mhabit/pull/460\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.6+133...v1.22.8+135"
+        },
+        {
           "absoluteVersion": "1.22.6+133",
           "version": "1.22.6",
           "date": "2025-12-14T11:35:18Z",
@@ -247,11 +257,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.22.6",
-      "size": 32861032,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.6%2B133/mhabit-unsigned.ipa",
-      "versionDate": "2025-12-14T11:35:18Z",
-      "versionDescription": "# v1.22.6+133\n\n# Released: 1.22.6+133\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Add Custom Theme Color (#447)\r\n- Add Windows reminder support and enable repeated reminders (#450)\r\n- Add Linux reminder support and enable repeated reminders (#453)\r\n- WebDAV sync can create missing root folders recursively and show decoded paths (#454)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n- Add Ukrainian F-Droid/Google description translation, thanks to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#446)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Preparing to publish on Microsoft Store (#444)\r\n- Add multiple language support to MSIX (#448)\r\n- Add `Fastlane:android:update_play_store` lane with optional params\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README (#445)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.2+129...v1.22.6+133",
+      "version": "1.22.8",
+      "size": 32897797,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.8%2B135/mhabit-unsigned.ipa",
+      "versionDate": "2026-01-03T13:56:10Z",
+      "versionDescription": "# v1.22.8+135\n\n# Released: 1.22.8+135\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hungarian translation, thank to peterczegledy's contribution on Github (#462)\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#459)\r\n- Updated Vietnamese translation, thank to Loc Huynh\u2019s contribution on Weblate (#467)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Prevent loading from getting stuck by safely handling errors\r\n- Fixed: Trigger `RefreshIndicator` on sync start\r\n- Fixed: Add localized app name for the Play Store version (#472)\r\n- Bump fastlane dependencies\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README.md (#463)\r\n\r\n## New Contributors\r\n* @peterczegledy made their first contribution in https://github.com/FriesI23/mhabit/pull/462\r\n* @dependabot[bot] made their first contribution in https://github.com/FriesI23/mhabit/pull/460\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.6+133...v1.22.8+135",
       "beta": false
     }
   ],
