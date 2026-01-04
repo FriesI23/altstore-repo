@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.22.9+136",
+          "version": "1.22.9",
+          "date": "2026-01-04T11:14:31Z",
+          "size": 32895393,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.9%2B136/mhabit-unsigned.ipa",
+          "buildVersion": "136",
+          "sha256": "13b07e987962cca945e48f16b2d4f2c6783312216aa4e088e464d9a6f1434043",
+          "localizedDescription": "# v1.22.9+136\n\n# Released: 1.22.9+136\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- fixed: ensure UI refresh works correctly (#475)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.8+135...v1.22.9+136"
+        },
+        {
           "absoluteVersion": "1.22.8+135",
           "version": "1.22.8",
           "date": "2026-01-03T13:56:10Z",
@@ -257,11 +267,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.22.8",
-      "size": 32897797,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.8%2B135/mhabit-unsigned.ipa",
-      "versionDate": "2026-01-03T13:56:10Z",
-      "versionDescription": "# v1.22.8+135\n\n# Released: 1.22.8+135\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Hungarian translation, thank to peterczegledy's contribution on Github (#462)\r\n- Updated Ukrainian translation, thank to \u041c\u0430\u043a\u0441\u0438\u043c \u0413\u043e\u0440\u043f\u0438\u043d\u0456\u0447's contribution on Weblate (#459)\r\n- Updated Vietnamese translation, thank to Loc Huynh\u2019s contribution on Weblate (#467)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Fixed: Prevent loading from getting stuck by safely handling errors\r\n- Fixed: Trigger `RefreshIndicator` on sync start\r\n- Fixed: Add localized app name for the Play Store version (#472)\r\n- Bump fastlane dependencies\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README.md (#463)\r\n\r\n## New Contributors\r\n* @peterczegledy made their first contribution in https://github.com/FriesI23/mhabit/pull/462\r\n* @dependabot[bot] made their first contribution in https://github.com/FriesI23/mhabit/pull/460\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.6+133...v1.22.8+135",
+      "version": "1.22.9",
+      "size": 32895393,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.9%2B136/mhabit-unsigned.ipa",
+      "versionDate": "2026-01-04T11:14:31Z",
+      "versionDescription": "# v1.22.9+136\n\n# Released: 1.22.9+136\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- fixed: ensure UI refresh works correctly (#475)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.8+135...v1.22.9+136",
       "beta": false
     }
   ],
