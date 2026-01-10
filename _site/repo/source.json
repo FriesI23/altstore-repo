@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.23.3+142",
+          "version": "1.23.3",
+          "date": "2026-01-10T04:01:56Z",
+          "size": 15565310,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.3%2B142/mhabit-unsigned.ipa",
+          "buildVersion": "142",
+          "sha256": "f608e343ccaff74d45504429d12435d3c7dfd1bf7f097958127167e9f6af19e3",
+          "localizedDescription": "# v1.23.3+142\n\n# Released: 1.23.3+142\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Enable predictive back on Android 14+ (#483)\r\n- Feature: apply platform-specific colors for system theme (#487)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Upgrade to Flutter 3.35.7 / Dart toolchain with API migrations (#479)\r\n- Update Android AGP 8.12.3 with Kotlin/Gradle updates and JVM memory tweaks (#479)\r\n- Update iOS / macOS projects to align with the new toolchain (#479)\r\n- Dependency bumps (pubspec.lock): intl 0.19.0 \u2192 0.20.2; fl_chart 1.0.0 \u2192 1.1.1; share_plus 11.1.0 \u2192 12.0.1; app_settings 6.1.1 \u2192 7.0.0; package_info_plus 8.3.1 \u2192 9.0.0; flutter_timezone 4.1.1 \u2192 5.0.1; copy_with_extension 6.0.1 \u2192 9.1.1; source_gen 2.0.0 \u2192 3.1.0; flutter_lints 5.0.0 \u2192 6.0.0 (#479)\r\n- Code formatting and maintenance cleanup (#479)\r\n- Fixed: Export dialog position on iPadOS\r\n- Update feedback Email address\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.10+137...v1.23.3+142"
+        },
+        {
           "absoluteVersion": "1.22.10+137",
           "version": "1.22.10",
           "date": "2026-01-04T12:32:43Z",
@@ -277,11 +287,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.22.10",
-      "size": 32894788,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.22.10%2B137/mhabit-unsigned.ipa",
-      "versionDate": "2026-01-04T12:32:43Z",
-      "versionDescription": "# v1.22.10+137\n\n# Released: 1.22.9+136\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- fixed: ensure UI refresh works correctly (#475)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.8+135...v1.22.10+137",
+      "version": "1.23.3",
+      "size": 15565310,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.3%2B142/mhabit-unsigned.ipa",
+      "versionDate": "2026-01-10T04:01:56Z",
+      "versionDescription": "# v1.23.3+142\n\n# Released: 1.23.3+142\r\n\r\n**\u2728 New Features**\r\n\r\n- Feature: Enable predictive back on Android 14+ (#483)\r\n- Feature: apply platform-specific colors for system theme (#487)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Upgrade to Flutter 3.35.7 / Dart toolchain with API migrations (#479)\r\n- Update Android AGP 8.12.3 with Kotlin/Gradle updates and JVM memory tweaks (#479)\r\n- Update iOS / macOS projects to align with the new toolchain (#479)\r\n- Dependency bumps (pubspec.lock): intl 0.19.0 \u2192 0.20.2; fl_chart 1.0.0 \u2192 1.1.1; share_plus 11.1.0 \u2192 12.0.1; app_settings 6.1.1 \u2192 7.0.0; package_info_plus 8.3.1 \u2192 9.0.0; flutter_timezone 4.1.1 \u2192 5.0.1; copy_with_extension 6.0.1 \u2192 9.1.1; source_gen 2.0.0 \u2192 3.1.0; flutter_lints 5.0.0 \u2192 6.0.0 (#479)\r\n- Code formatting and maintenance cleanup (#479)\r\n- Fixed: Export dialog position on iPadOS\r\n- Update feedback Email address\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.22.10+137...v1.23.3+142",
       "beta": false
     }
   ],
