@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.23.11+151",
+          "version": "1.23.11",
+          "date": "2026-03-21T09:44:30Z",
+          "size": 15585520,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.11%2B151/mhabit-unsigned.ipa",
+          "buildVersion": "151",
+          "sha256": "800228ce47199e375e5920ae82ed802a5d66584ba6c729924a0f26dcb48326e9",
+          "localizedDescription": "# v1.23.11+151\n\n# Release: v1.23.11+151\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Czech translation, thanks to tenJirka's contribution on Weblate (#510)\r\n- Updated Hebrew translation and store descriptions, thanks to Omer I.S.'s contribution on Weblate (#510, #514)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Refactor README: move Microsoft Store info to Windows section (#509)\r\n- Refactor README: fix `appsotre-myapp` typo to `appstore-myapp` (#508)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README structure and wording (#512)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.8+148...v1.23.11+151"
+        },
+        {
           "absoluteVersion": "1.23.8+148",
           "version": "1.23.8",
           "date": "2026-02-07T00:31:54Z",
@@ -307,11 +317,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.23.8",
-      "size": 15577564,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.8%2B148/mhabit-unsigned.ipa",
-      "versionDate": "2026-02-07T00:31:54Z",
-      "versionDescription": "# v1.23.8+148\n\n# Release: v1.23.8+148\r\n\r\n**\u2728 New Features**\r\n\r\n- Enable drag on search filter and page scrolling (#504)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update translation files, refresh ARB format and clean empty metadata\r\n- Update German translation, thank to TheKos's contribution on Weblate (#503)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Bump darwin xcode version to 26 (#500)\r\n- Add metadata and changelog validation for iOS/macOS (#501)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update Donors.md\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.6+145...v1.23.8+148\r\n",
+      "version": "1.23.11",
+      "size": 15585520,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.11%2B151/mhabit-unsigned.ipa",
+      "versionDate": "2026-03-21T09:44:30Z",
+      "versionDescription": "# v1.23.11+151\n\n# Release: v1.23.11+151\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Czech translation, thanks to tenJirka's contribution on Weblate (#510)\r\n- Updated Hebrew translation and store descriptions, thanks to Omer I.S.'s contribution on Weblate (#510, #514)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Refactor README: move Microsoft Store info to Windows section (#509)\r\n- Refactor README: fix `appsotre-myapp` typo to `appstore-myapp` (#508)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README structure and wording (#512)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.8+148...v1.23.11+151",
       "beta": false
     }
   ],
