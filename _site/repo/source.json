@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.24.1+154",
+          "version": "1.24.1",
+          "date": "2026-05-18T05:58:21Z",
+          "size": 16638555,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.1%2B154/mhabit-unsigned.ipa",
+          "buildVersion": "154",
+          "sha256": "4d5993aa9e4acd8f33722aab4e44eac03b33daffe3a553b16f78276e66986d5a",
+          "localizedDescription": "# v1.24.1+154\n\n# Release: v1.24.1+154\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Basque translation resources and locale metadata, thanks to Txopi's contribution on GitHub (#523, #529)\r\n- Update Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate (#529)\r\n- Update French translation, thanks to biram's contribution on Weblate (#529)\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#529)\r\n- Update Turkish translation, thanks to Soykan Ayd\u0131n's contribution on Weblate (#529)\r\n- Update Traditional Chinese translation, thanks to William's contribution on Weblate (#529)\r\n- Refresh related locale metadata and contributor info (#523, #529)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update store metadata, brand colors, summary text, installation wording, and the f_store registration asset (#519, #525, #529, #534)\r\n- Upgrade to Flutter 3.41.9 and migrate required framework breaking changes (#540)\r\n- Refresh package dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains (#540)\r\n- Fix App Sync server iter type handling (#540)\r\n- Fix theme colors (#540)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update installation wording and README content (#519, #525)\r\n- Update the source builder wiki (#540)\r\n\r\n## New Contributors\r\n* @notrudyyy made their first contribution in https://github.com/FriesI23/mhabit/pull/525\r\n* @Txopi made their first contribution in https://github.com/FriesI23/mhabit/pull/523\r\n\r\n--- \r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154"
+        },
+        {
           "absoluteVersion": "1.23.11+151",
           "version": "1.23.11",
           "date": "2026-03-21T09:44:30Z",
@@ -317,11 +327,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.23.11",
-      "size": 15585520,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.23.11%2B151/mhabit-unsigned.ipa",
-      "versionDate": "2026-03-21T09:44:30Z",
-      "versionDescription": "# v1.23.11+151\n\n# Release: v1.23.11+151\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Updated Czech translation, thanks to tenJirka's contribution on Weblate (#510)\r\n- Updated Hebrew translation and store descriptions, thanks to Omer I.S.'s contribution on Weblate (#510, #514)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Refactor README: move Microsoft Store info to Windows section (#509)\r\n- Refactor README: fix `appsotre-myapp` typo to `appstore-myapp` (#508)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update README structure and wording (#512)\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.8+148...v1.23.11+151",
+      "version": "1.24.1",
+      "size": 16638555,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.1%2B154/mhabit-unsigned.ipa",
+      "versionDate": "2026-05-18T05:58:21Z",
+      "versionDescription": "# v1.24.1+154\n\n# Release: v1.24.1+154\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Basque translation resources and locale metadata, thanks to Txopi's contribution on GitHub (#523, #529)\r\n- Update Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate (#529)\r\n- Update French translation, thanks to biram's contribution on Weblate (#529)\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#529)\r\n- Update Turkish translation, thanks to Soykan Ayd\u0131n's contribution on Weblate (#529)\r\n- Update Traditional Chinese translation, thanks to William's contribution on Weblate (#529)\r\n- Refresh related locale metadata and contributor info (#523, #529)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update store metadata, brand colors, summary text, installation wording, and the f_store registration asset (#519, #525, #529, #534)\r\n- Upgrade to Flutter 3.41.9 and migrate required framework breaking changes (#540)\r\n- Refresh package dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains (#540)\r\n- Fix App Sync server iter type handling (#540)\r\n- Fix theme colors (#540)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update installation wording and README content (#519, #525)\r\n- Update the source builder wiki (#540)\r\n\r\n## New Contributors\r\n* @notrudyyy made their first contribution in https://github.com/FriesI23/mhabit/pull/525\r\n* @Txopi made their first contribution in https://github.com/FriesI23/mhabit/pull/523\r\n\r\n--- \r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154",
       "beta": false
     }
   ],
