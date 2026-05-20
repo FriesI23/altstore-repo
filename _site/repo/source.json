@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.24.2+156",
+          "version": "1.24.2",
+          "date": "2026-05-20T00:53:51Z",
+          "size": 16638690,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.2%2B156/mhabit-unsigned.ipa",
+          "buildVersion": "156",
+          "sha256": "a385336431d0c6ce2b0c7b21a00df1a9700ea9bd0c6c40ba35d6124e35cedfdf",
+          "localizedDescription": "# v1.24.2+156\n\n# Release: v1.24.2+156\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Maintenance release to resolve a build issue affecting F-Droid distribution (#543, #544).\r\n- No user-facing changes in this release; app functionality remains the same as v1.24.1+154.\r\n\r\n---\r\n\r\n## Highlights from v1.24.1+154\r\n\r\n> Main user-facing updates are from v1.24.1+154.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Added Basque translation resources and locale metadata.\r\n- Updated Arabic, French, Hebrew, Turkish, and Traditional Chinese translations.\r\n- Refreshed related locale metadata and contributor info.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Updated store metadata, brand colors, summary text, installation wording, and f_store registration asset.\r\n- Upgraded to Flutter 3.41.9 and migrated required framework breaking changes.\r\n- Refreshed dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains.\r\n- Fixed App Sync server iter type handling.\r\n- Fixed theme colors.\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Updated installation wording, README content, and source builder wiki.\r\n\r\n**v1.24.1+154 Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.24.1+154...v1.24.2+156\r\n"
+        },
+        {
           "absoluteVersion": "1.24.1+154",
           "version": "1.24.1",
           "date": "2026-05-18T05:58:21Z",
@@ -327,11 +337,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.24.1",
-      "size": 16638555,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.1%2B154/mhabit-unsigned.ipa",
-      "versionDate": "2026-05-18T05:58:21Z",
-      "versionDescription": "# v1.24.1+154\n\n# Release: v1.24.1+154\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Add Basque translation resources and locale metadata, thanks to Txopi's contribution on GitHub (#523, #529)\r\n- Update Arabic translation, thanks to abdelbasset jabrane's contribution on Weblate (#529)\r\n- Update French translation, thanks to biram's contribution on Weblate (#529)\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#529)\r\n- Update Turkish translation, thanks to Soykan Ayd\u0131n's contribution on Weblate (#529)\r\n- Update Traditional Chinese translation, thanks to William's contribution on Weblate (#529)\r\n- Refresh related locale metadata and contributor info (#523, #529)\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Update store metadata, brand colors, summary text, installation wording, and the f_store registration asset (#519, #525, #529, #534)\r\n- Upgrade to Flutter 3.41.9 and migrate required framework breaking changes (#540)\r\n- Refresh package dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains (#540)\r\n- Fix App Sync server iter type handling (#540)\r\n- Fix theme colors (#540)\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Update installation wording and README content (#519, #525)\r\n- Update the source builder wiki (#540)\r\n\r\n## New Contributors\r\n* @notrudyyy made their first contribution in https://github.com/FriesI23/mhabit/pull/525\r\n* @Txopi made their first contribution in https://github.com/FriesI23/mhabit/pull/523\r\n\r\n--- \r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154",
+      "version": "1.24.2",
+      "size": 16638690,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.2%2B156/mhabit-unsigned.ipa",
+      "versionDate": "2026-05-20T00:53:51Z",
+      "versionDescription": "# v1.24.2+156\n\n# Release: v1.24.2+156\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Maintenance release to resolve a build issue affecting F-Droid distribution (#543, #544).\r\n- No user-facing changes in this release; app functionality remains the same as v1.24.1+154.\r\n\r\n---\r\n\r\n## Highlights from v1.24.1+154\r\n\r\n> Main user-facing updates are from v1.24.1+154.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Added Basque translation resources and locale metadata.\r\n- Updated Arabic, French, Hebrew, Turkish, and Traditional Chinese translations.\r\n- Refreshed related locale metadata and contributor info.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Updated store metadata, brand colors, summary text, installation wording, and f_store registration asset.\r\n- Upgraded to Flutter 3.41.9 and migrated required framework breaking changes.\r\n- Refreshed dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains.\r\n- Fixed App Sync server iter type handling.\r\n- Fixed theme colors.\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Updated installation wording, README content, and source builder wiki.\r\n\r\n**v1.24.1+154 Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.24.1+154...v1.24.2+156\r\n",
       "beta": false
     }
   ],
