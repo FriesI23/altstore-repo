@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.24.5+161",
+          "version": "1.24.5",
+          "date": "2026-06-02T04:25:32Z",
+          "size": 16662649,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.5%2B161/mhabit-unsigned.ipa",
+          "buildVersion": "161",
+          "sha256": "0434b9e47bd5d3e4694843102d24a1098ee68cf90f1a761c0fc7bc715902041d",
+          "localizedDescription": "# v1.24.5+161\n\n# Release: v1.24.5+161\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Update the Hebrew text for the shared load-error message and refresh translation outputs (#570).\r\n\r\n## \ud83d\udee0 Refactor\r\n\r\n- Refactor page state wiring and dependency setup, and tidy page unit-test paths (#563).\r\n- Refactor reminder handling to improve stability on app start, restart, and day changes (#569).\r\n- Refactor habit summary APIs and simplify related helper logic (#571).\r\n- Refactor custom color generation and improve palette consistency (#572).\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Fix duplicate habit detail refresh when returning via back navigation (#565).\r\n- Update build and release workflows to fix packaging and native build-chain issues (#544, #547, #548).\r\n- Integrate Melos workspace automation and add test-scoped DB and logging helpers for local workflows (#573).\r\n- Stabilize icon font generation and refresh generated icon assets for release builds (#574).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.24.1+154...v1.24.5+161)\r\n"
+        },
+        {
           "absoluteVersion": "1.24.2+156",
           "version": "1.24.2",
           "date": "2026-05-20T00:53:51Z",
@@ -337,11 +347,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.24.2",
-      "size": 16638690,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.2%2B156/mhabit-unsigned.ipa",
-      "versionDate": "2026-05-20T00:53:51Z",
-      "versionDescription": "# v1.24.2+156\n\n# Release: v1.24.2+156\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Maintenance release to resolve a build issue affecting F-Droid distribution (#543, #544).\r\n- No user-facing changes in this release; app functionality remains the same as v1.24.1+154.\r\n\r\n---\r\n\r\n## Highlights from v1.24.1+154\r\n\r\n> Main user-facing updates are from v1.24.1+154.\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Added Basque translation resources and locale metadata.\r\n- Updated Arabic, French, Hebrew, Turkish, and Traditional Chinese translations.\r\n- Refreshed related locale metadata and contributor info.\r\n\r\n**\ud83e\uddf9 Others**\r\n\r\n- Updated store metadata, brand colors, summary text, installation wording, and f_store registration asset.\r\n- Upgraded to Flutter 3.41.9 and migrated required framework breaking changes.\r\n- Refreshed dependencies, generated files, Fastlane lockfiles, release checks, and runtime integration for newer toolchains.\r\n- Fixed App Sync server iter type handling.\r\n- Fixed theme colors.\r\n\r\n**\ud83d\udcdd Documentation**\r\n\r\n- Updated installation wording, README content, and source builder wiki.\r\n\r\n**v1.24.1+154 Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.23.11+151...v1.24.1+154\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/FriesI23/mhabit/compare/v1.24.1+154...v1.24.2+156\r\n",
+      "version": "1.24.5",
+      "size": 16662649,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.24.5%2B161/mhabit-unsigned.ipa",
+      "versionDate": "2026-06-02T04:25:32Z",
+      "versionDescription": "# v1.24.5+161\n\n# Release: v1.24.5+161\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Update the Hebrew text for the shared load-error message and refresh translation outputs (#570).\r\n\r\n## \ud83d\udee0 Refactor\r\n\r\n- Refactor page state wiring and dependency setup, and tidy page unit-test paths (#563).\r\n- Refactor reminder handling to improve stability on app start, restart, and day changes (#569).\r\n- Refactor habit summary APIs and simplify related helper logic (#571).\r\n- Refactor custom color generation and improve palette consistency (#572).\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Fix duplicate habit detail refresh when returning via back navigation (#565).\r\n- Update build and release workflows to fix packaging and native build-chain issues (#544, #547, #548).\r\n- Integrate Melos workspace automation and add test-scoped DB and logging helpers for local workflows (#573).\r\n- Stabilize icon font generation and refresh generated icon assets for release builds (#574).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.24.1+154...v1.24.5+161)\r\n",
       "beta": false
     }
   ],
