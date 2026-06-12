@@ -7,5 +7,5 @@
 
 [get-it-on-altstore]: assets/get-it-on-altstore.png
 [get-it-on-sidestore]: assets/get-it-on-sidestore.png
-[altstore-source]: https://play4fun.friesi23.cn/altstore-repo/pages/altstore.html
-[sidestore-source]: https://play4fun.friesi23.cn/altstore-repo/pages/sidestore.html
+[altstore-source]: https://friesi23.icu/altstore-repo/pages/altstore.html
+[sidestore-source]: https://friesi23.icu/altstore-repo/pages/sidestore.html
