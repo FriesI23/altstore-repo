@@ -2,8 +2,12 @@ name: Update AltStore/SideStore Source
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -25,17 +29,24 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
         with:
-          ref: auto-ci
+          ref: master
 
       - name: Configure git
         run: |
           git config user.name "Fries_I23"
           git config user.email "20661034+FriesI23@users.noreply.github.com"
 
+      - name: Create branch
+        id: branch
+        run: |
+          BRANCH_NAME="auto-update-$(date +%Y%m%d%H%M%S)"
+          git checkout -b "$BRANCH_NAME"
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+
       - name: Update
+        id: update
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH_NAME: auto-ci
+          BRANCH_NAME: ${{ steps.branch.outputs.branch_name }}
         run: |
           cd scripts/update_repo
           poetry install
@@ -44,32 +55,22 @@ jobs:
           git add _site/repo/source.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update source on $(date +%Y-%m-%d)"
-            git push origin $BRANCH_NAME
+            git push origin "$BRANCH_NAME"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           else
             echo "No changes to commit"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Create PR
+        if: steps.update.outputs.has_changes == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BASE_BRANCH_NAME: master
-          BRANCH_NAME: auto-ci
+          BRANCH_NAME: ${{ steps.branch.outputs.branch_name }}
         run: |
-          git fetch origin $BASE_BRANCH_NAME
-          if ! git diff --quiet origin/$BASE_BRANCH_NAME...$BRANCH_NAME; then
-            EXISTING_PR=$(gh pr list --base "$BASE_BRANCH_NAME" --head "$BRANCH_NAME" --state open --json number --jq '.[0].number')
-
-            PR_URL=$(gh pr create \
-              --base "$BASE_BRANCH_NAME" \
-              --head "$BRANCH_NAME" \
-              --title "Auto Update source" \
-              --body "Automated update source on $(date +%Y-%m-%d).")
-            NEW_PR_NUMBER=$(echo "$PR_URL" | grep -oE '[0-9]+$')
-
-            if [ -n "$EXISTING_PR" ]; then
-              gh pr comment "$EXISTING_PR" --body "Auto-closing in favor of #$NEW_PR_NUMBER."
-              gh pr close "$EXISTING_PR"
-            fi
-          else
-            echo "No changes detected. Skipping PR creation."
-          fi
+          gh pr create \
+            --base "$BASE_BRANCH_NAME" \
+            --head "$BRANCH_NAME" \
+            --title "Auto Update source" \
+            --body "Automated update source on $(date +%Y-%m-%d)."
