@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.25.7+172",
+          "version": "1.25.7",
+          "date": "2026-07-10T00:12:59Z",
+          "size": 16747665,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.25.7%2B172/mhabit-unsigned.ipa",
+          "buildVersion": "172",
+          "sha256": "45e047b7a06e944c1b53699d27e309fb161f063633dad4cada560297d4b057e5",
+          "localizedDescription": "# v1.25.7+172\n\n# Release: v1.25.7+172\r\n\r\n**\u2728 New Features**\r\n\r\n- Sync Android animation scale with Flutter settings (#608)\r\n- Changelog first-open dialog and banner integration (#610)\r\n- Import habits and records from Loop Habit Tracker (uhabit) CSV export (#612)\r\n- Implement adaptive content sheets and enhance dialog localization (#613)\r\n- Preserve unknown sync fields across habit round-trips for forward compatibility (#614)\r\n\r\n**\ud83d\udc1b Bug Fixes**\r\n\r\n- Changelog version matching not handling pre-release suffix in CHANGELOG headings\r\n- Replace regex-based beta heading matching with AST prefix matching for improved reliability (#615)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#611)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.25.3+168...v1.25.7+172)"
+        },
+        {
           "absoluteVersion": "1.25.3+168",
           "version": "1.25.3",
           "date": "2026-07-01T01:11:32Z",
@@ -367,11 +377,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.25.3",
-      "size": 16755020,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.25.3%2B168/mhabit-unsigned.ipa",
-      "versionDate": "2026-07-01T01:11:32Z",
-      "versionDescription": "# v1.25.3+168\n\n# Release: v1.25.3+168\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#589)\r\n- Update Turkish translation, thanks to O\u011fuz Ersen's contribution on Weblate (#589)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Add automated store submission pipelines for Android Play Store, iOS App Store,\r\n  macOS App Store (fastlane match signing), and Microsoft Store (#590, #591,\r\n  #592, #593).\r\n- Add semi-automated release-flow scripts and orchestrator prompt for version\r\n  bump, changelog, and store-metadata generation (#588).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.25.1+164...v1.25.3+168)\r\n",
+      "version": "1.25.7",
+      "size": 16747665,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.25.7%2B172/mhabit-unsigned.ipa",
+      "versionDate": "2026-07-10T00:12:59Z",
+      "versionDescription": "# v1.25.7+172\n\n# Release: v1.25.7+172\r\n\r\n**\u2728 New Features**\r\n\r\n- Sync Android animation scale with Flutter settings (#608)\r\n- Changelog first-open dialog and banner integration (#610)\r\n- Import habits and records from Loop Habit Tracker (uhabit) CSV export (#612)\r\n- Implement adaptive content sheets and enhance dialog localization (#613)\r\n- Preserve unknown sync fields across habit round-trips for forward compatibility (#614)\r\n\r\n**\ud83d\udc1b Bug Fixes**\r\n\r\n- Changelog version matching not handling pre-release suffix in CHANGELOG headings\r\n- Replace regex-based beta heading matching with AST prefix matching for improved reliability (#615)\r\n\r\n**\ud83c\udf10 Localization**\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#611)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.25.3+168...v1.25.7+172)",
       "beta": false
     }
   ],
