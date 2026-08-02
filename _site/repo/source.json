@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.26.5+178",
+          "version": "1.26.5",
+          "date": "2026-08-02T01:49:43Z",
+          "size": 17177964,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.26.5%2B178/mhabit-unsigned.ipa",
+          "buildVersion": "178",
+          "sha256": "ed0bde87a6b4215b444fdcc1954c2f84e1105119d7f7ad5d7d606eb5848cff13",
+          "localizedDescription": "# v1.26.5+178\n\n# Release: v1.26.5+178\r\n\r\n## \u2728 New Features\r\n\r\n- Add habit-count sort, manual sort with drag reorder, and group management interaction upgrades (#621)\r\n- Implement natural-language collation sort for habit and today lists (#631)\r\n- Add system language settings and localization support (#632)\r\n\r\n## \ud83d\udd27 Refactoring\r\n\r\n- Extract PopScopeGate widget with PopScopeHandler interface (#625)\r\n- Add AppEventSubscriber and consolidate event pushes (#626)\r\n- Replace manual sync triggers with AppEventBus subscription (#628)\r\n\r\n## \ud83c\udf0d Translations\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#620, #622, #633).\r\n- Update Ukrainian translation, thanks to \u041f\u0430\u0432\u043b\u043e \u041f\u043e\u0433\u043e\u043d\u0435\u0446\u044c's contribution on Weblate (#622).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.26.1+174...v1.26.5+178)\r\n"
+        },
+        {
           "absoluteVersion": "1.26.1+174",
           "version": "1.26.1",
           "date": "2026-07-22T01:39:39Z",
@@ -387,11 +397,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.26.1",
-      "size": 16915043,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.26.1%2B174/mhabit-unsigned.ipa",
-      "versionDate": "2026-07-22T01:39:39Z",
-      "versionDescription": "# v1.26.1+174\n\n# Release: v1.26.1+174\r\n\r\n## \u2728 Features\r\n\r\n- Habit grouping with group management page, group-mode picker, collapsible groups, and cross-group drag-and-drop reorder, behind experimental feature flag (#617)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Graduate search filtering as always-on\r\n- Update French, Hebrew, and Italian translations, thanks to contributors on Weblate (#616)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.25.7+172...v1.26.1+174)\r\n",
+      "version": "1.26.5",
+      "size": 17177964,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.26.5%2B178/mhabit-unsigned.ipa",
+      "versionDate": "2026-08-02T01:49:43Z",
+      "versionDescription": "# v1.26.5+178\n\n# Release: v1.26.5+178\r\n\r\n## \u2728 New Features\r\n\r\n- Add habit-count sort, manual sort with drag reorder, and group management interaction upgrades (#621)\r\n- Implement natural-language collation sort for habit and today lists (#631)\r\n- Add system language settings and localization support (#632)\r\n\r\n## \ud83d\udd27 Refactoring\r\n\r\n- Extract PopScopeGate widget with PopScopeHandler interface (#625)\r\n- Add AppEventSubscriber and consolidate event pushes (#626)\r\n- Replace manual sync triggers with AppEventBus subscription (#628)\r\n\r\n## \ud83c\udf0d Translations\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate (#620, #622, #633).\r\n- Update Ukrainian translation, thanks to \u041f\u0430\u0432\u043b\u043e \u041f\u043e\u0433\u043e\u043d\u0435\u0446\u044c's contribution on Weblate (#622).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.26.1+174...v1.26.5+178)\r\n",
       "beta": false
     }
   ],
