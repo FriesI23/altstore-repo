@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.27.6+195",
+          "version": "1.27.6",
+          "date": "2026-09-07T09:42:26Z",
+          "size": 14790504,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.6%2B195/mhabit-unsigned.ipa",
+          "buildVersion": "195",
+          "sha256": "ac227b2e1e7ab956e6926d2a24b173ca8ad9495b0dd042c064a53404507f8560",
+          "localizedDescription": "# v1.27.6+195\n\n# Release: v1.27.6+195\r\n\r\n## \u2728 Features\r\n\r\n- Complete the adaptive interface migration across navigation, settings, page\r\n  headers, search, selection, and habit actions\r\n  - Preserve branch state and improve back navigation across nested pages\r\n  - Keep actions and menus responsive across window sizes and input modes\r\n- Add quick theme mode controls to app bars and wider navigation layouts (#659)\r\n- Add resizable side navigation for wider layouts (#653)\r\n  - Keep navigation aligned with window controls, safe areas, and layout\r\n    direction changes\r\n  - Improve text rendering and theme behavior across desktop layouts\r\n- Improve app bars, habit actions, and batch status changes across window sizes\r\n  (#655)\r\n  - Keep localized action labels readable and move extra actions into overflow\r\n    menus when space is limited\r\n  - Refine page backgrounds and scroll-under transitions\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Keep dialogs above app navigation and refresh selection state consistently\r\n  after reordering or regrouping habits (#656)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.3+192...v1.27.6+195)\r\n"
+        },
+        {
           "absoluteVersion": "1.27.3+192",
           "version": "1.27.3",
           "date": "2026-08-28T23:54:03Z",
@@ -427,11 +437,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.27.3",
-      "size": 14637947,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.3%2B192/mhabit-unsigned.ipa",
-      "versionDate": "2026-08-28T23:54:03Z",
-      "versionDescription": "# v1.27.3+192\n\n# Release: v1.27.3+192\r\n\r\n> This release combines all pre-release changes starting with\r\n> `pre-v1.26.15+188`.\r\n\r\n## \u2728 Features\r\n\r\n- Expand adaptive navigation, search, filtering, and habit-selection actions\r\n  (#646)\r\n  - Improve adaptive search and filtering across different window sizes\r\n  - Keep primary and overflow selection actions available in compact layouts\r\n- Keep adaptive app bars and navigation rails clear of window controls (#647)\r\n- Add adaptive navigation bars and rails with responsive presentation (#649)\r\n  - Add floating compact navigation with expanded and minimized states\r\n  - Add contextual habit-selection actions and page-owned primary actions\r\n  - Preserve navigation behavior across safe areas, resizing, and layout\r\n    direction changes\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Improve navigation inset handling, third-party file imports, and Today refresh\r\n  behavior (#650)\r\n- Preserve the habit-list scroll position after returning from habit details\r\n- Stabilize compact navigation during scrolling (#652)\r\n  - Keep the navigation state stable during gentle scrolling\r\n  - Minimize or restore navigation only for intentional swipes\r\n- Restore standard floating-navigation margins on rectangular-screen phones\r\n  while preserving rounded-screen spacing\r\n- Improve dark navigation surfaces and compact primary-action alignment\r\n  - Increase dark floating-surface contrast while keeping shadows restrained\r\n  - Align the compact primary action with the navigation bar across larger\r\n    bottom insets\r\n- Refine navigation scroll-under transitions\r\n  - Update app bar backgrounds automatically as content scrolls underneath\r\n  - Preserve the intended floating-surface elevation during transitions\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Add Dutch language support (#651)\r\n- Update Czech translation, thanks to Pavel Borecki's contribution on Weblate\r\n  (#651)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.26.14+187...v1.27.3+192)\r\n",
+      "version": "1.27.6",
+      "size": 14790504,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.6%2B195/mhabit-unsigned.ipa",
+      "versionDate": "2026-09-07T09:42:26Z",
+      "versionDescription": "# v1.27.6+195\n\n# Release: v1.27.6+195\r\n\r\n## \u2728 Features\r\n\r\n- Complete the adaptive interface migration across navigation, settings, page\r\n  headers, search, selection, and habit actions\r\n  - Preserve branch state and improve back navigation across nested pages\r\n  - Keep actions and menus responsive across window sizes and input modes\r\n- Add quick theme mode controls to app bars and wider navigation layouts (#659)\r\n- Add resizable side navigation for wider layouts (#653)\r\n  - Keep navigation aligned with window controls, safe areas, and layout\r\n    direction changes\r\n  - Improve text rendering and theme behavior across desktop layouts\r\n- Improve app bars, habit actions, and batch status changes across window sizes\r\n  (#655)\r\n  - Keep localized action labels readable and move extra actions into overflow\r\n    menus when space is limited\r\n  - Refine page backgrounds and scroll-under transitions\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Keep dialogs above app navigation and refresh selection state consistently\r\n  after reordering or regrouping habits (#656)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.3+192...v1.27.6+195)\r\n",
       "beta": false
     }
   ],
