@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.27.15+204",
+          "version": "1.27.15",
+          "date": "2026-10-19T04:09:04Z",
+          "size": 15128625,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+          "buildVersion": "204",
+          "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
+          "localizedDescription": "# v1.27.15+204\n\n# Released: v1.27.15+204\r\n\r\n## \u2728 Features\r\n\r\n- Integrate native desktop title bars and keep app bars pinned while scrolling\r\n  (#677)\r\n  - Fuse macOS window controls with adaptive toolbars and handle fullscreen\r\n    transitions\r\n  - Match native title bar colors to the app theme on Windows and Linux\r\n- Keep a manually collapsed sidebar closed across layout and interface-style\r\n  changes within the current session (#679)\r\n- Restore desktop window size and position before the window first appears\r\n  (#681)\r\n  - Save ordinary window geometry without treating fullscreen or maximized\r\n    bounds as the preferred window size\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Preserve open dialogs and their state while updating theme colors, and keep\r\n  dialog app bars consistent with their local theme (#677)\r\n- Restore the Settings Back button when the sidebar and its collapsed toolbar\r\n  navigation are hidden (#678)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Add desktop native regression tests and integrate them into local and CI\r\n  test workflows (#677)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)\r\n"
+        },
+        {
           "absoluteVersion": "1.27.13+202",
           "version": "1.27.13",
           "date": "2026-10-10T00:05:01Z",
@@ -457,11 +467,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.27.13",
-      "size": 15116961,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa",
-      "versionDate": "2026-10-10T00:05:01Z",
-      "versionDescription": "# v1.27.13+202\n\n# Released: v1.27.13+202\r\n\r\n> Includes updates since the previous stable release, v1.27.9+198.\r\n\r\n## \u2728 Features\r\n\r\n- Add adaptive, collapsible side navigation with an edge style on newer Apple\r\n  systems (#667)\r\n  - Preserve navigation state, search, selection, and page actions across\r\n    layout changes\r\n- Apply app theme colors and custom palettes to the side navigation (#668)\r\n- Let users show or hide navigation destinations in the top toolbar when the\r\n  Apple sidebar is collapsed (#671)\r\n- Adapt navigation and content safe areas for iPhone Duo and compact-height\r\n  layouts (#674)\r\n- Scroll Habits and Today to the top when reselecting the active root tab\r\n  (#675)\r\n  - Return nested pages to the tab's root before scrolling on a subsequent tap\r\n  - Respect reduced motion preferences and pages that prevent back navigation\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Improve adaptive interaction styling, keyboard focus, and action-menu\r\n  behavior (#669)\r\n- Keep search filters available across layout changes (#669)\r\n- Align theme labels and Markdown typography (#669)\r\n- Refresh habit and group views as soon as synced changes are applied, while\r\n  preserving sync progress and in-progress edits (#672)\r\n- Keep neutral action colors consistent across app bars, dialogs, search,\r\n  sidebars, and group actions, and restore modal blur after nested navigation\r\n  (#673)\r\n- Keep system status and navigation bars visible while the app launches\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Pin Apple build and submission workflows to Xcode 27.0 (#674)\r\n- Raise the minimum supported macOS version to 12.0 (#674)\r\n- Centralize generated-code formatting in the Melos workflow (#674)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)\r\n",
+      "version": "1.27.15",
+      "size": 15128625,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+      "versionDate": "2026-10-19T04:09:04Z",
+      "versionDescription": "# v1.27.15+204\n\n# Released: v1.27.15+204\r\n\r\n## \u2728 Features\r\n\r\n- Integrate native desktop title bars and keep app bars pinned while scrolling\r\n  (#677)\r\n  - Fuse macOS window controls with adaptive toolbars and handle fullscreen\r\n    transitions\r\n  - Match native title bar colors to the app theme on Windows and Linux\r\n- Keep a manually collapsed sidebar closed across layout and interface-style\r\n  changes within the current session (#679)\r\n- Restore desktop window size and position before the window first appears\r\n  (#681)\r\n  - Save ordinary window geometry without treating fullscreen or maximized\r\n    bounds as the preferred window size\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Preserve open dialogs and their state while updating theme colors, and keep\r\n  dialog app bars consistent with their local theme (#677)\r\n- Restore the Settings Back button when the sidebar and its collapsed toolbar\r\n  navigation are hidden (#678)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Add desktop native regression tests and integrate them into local and CI\r\n  test workflows (#677)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)\r\n",
       "beta": false
     }
   ],
