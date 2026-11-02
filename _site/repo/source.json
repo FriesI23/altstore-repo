@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.27.18+207",
+          "version": "1.27.18",
+          "date": "2026-11-02T00:39:18Z",
+          "size": 15961434,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.18%2B207/mhabit-unsigned.ipa",
+          "buildVersion": "207",
+          "sha256": "4186802b9830247e18c9fb003898413466f74d66e81137e00121d0bd4334db9b",
+          "localizedDescription": "# v1.27.18+207\n\n# Released: v1.27.18+207\r\n\r\nTable Habit now supports iOS Home Screen widgets! Thanks to\r\n[@IlyaPalochkin](https://github.com/IlyaPalochkin) for contributing the initial\r\ninteractive widgets (#680).\r\n\r\n## \u2728 Features\r\n\r\n- Add interactive Home Screen widgets for iOS 17+, with seven-day progress and\r\n  check-in, undo and refresh actions without opening the app (#680)\r\n- Choose automatic or fixed habits, including archived habits; fixed habits\r\n  appear first. Small, medium and large widgets show up to one, three and six\r\n  habits respectively (#687)\r\n- Keep automatic check-ins visible until tapping **Next** to show another habit;\r\n  widgets on the same device share check-in and Next updates. Fixed habits stay\r\n  visible with Undo. Show a completion message when all goals are complete, or\r\n  **No pending habits** when incomplete or skipped goals leave no rows (#687)\r\n- Mark ordinary habits incomplete with **Missed**, distinguish ordinary and\r\n  negative habit record states, and display labels in the app language (#687)\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Improve foldable-screen layouts: fit dialogs, sheets and date/time pickers to\r\n  the selected screen area, and place confirmations in the right or lower area\r\n  (#691)\r\n- Keep toolbars, sidebars, search and floating controls clear of window controls\r\n  (#691)\r\n- Preserve navigation state across safe-area changes and fix Material\r\n  localization reloads (#691)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Standardize Swift formatting and add formatting checks to local and CI\r\n  workflows (#688)\r\n- Update adaptive UI dependencies and select stable Xcode 27.x in CI (#691)\r\n- Refresh Apple build dependency locks\r\n- Update contributor credits\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.15+204...v1.27.18+207)\r\n"
+        },
+        {
           "absoluteVersion": "1.27.15+204",
           "version": "1.27.15",
           "date": "2026-10-19T04:09:04Z",
@@ -467,11 +477,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.27.15",
-      "size": 15128625,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
-      "versionDate": "2026-10-19T04:09:04Z",
-      "versionDescription": "# v1.27.15+204\n\n# Released: v1.27.15+204\r\n\r\n## \u2728 Features\r\n\r\n- Integrate native desktop title bars and keep app bars pinned while scrolling\r\n  (#677)\r\n  - Fuse macOS window controls with adaptive toolbars and handle fullscreen\r\n    transitions\r\n  - Match native title bar colors to the app theme on Windows and Linux\r\n- Keep a manually collapsed sidebar closed across layout and interface-style\r\n  changes within the current session (#679)\r\n- Restore desktop window size and position before the window first appears\r\n  (#681)\r\n  - Save ordinary window geometry without treating fullscreen or maximized\r\n    bounds as the preferred window size\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Preserve open dialogs and their state while updating theme colors, and keep\r\n  dialog app bars consistent with their local theme (#677)\r\n- Restore the Settings Back button when the sidebar and its collapsed toolbar\r\n  navigation are hidden (#678)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Add desktop native regression tests and integrate them into local and CI\r\n  test workflows (#677)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)\r\n",
+      "version": "1.27.18",
+      "size": 15961434,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.18%2B207/mhabit-unsigned.ipa",
+      "versionDate": "2026-11-02T00:39:18Z",
+      "versionDescription": "# v1.27.18+207\n\n# Released: v1.27.18+207\r\n\r\nTable Habit now supports iOS Home Screen widgets! Thanks to\r\n[@IlyaPalochkin](https://github.com/IlyaPalochkin) for contributing the initial\r\ninteractive widgets (#680).\r\n\r\n## \u2728 Features\r\n\r\n- Add interactive Home Screen widgets for iOS 17+, with seven-day progress and\r\n  check-in, undo and refresh actions without opening the app (#680)\r\n- Choose automatic or fixed habits, including archived habits; fixed habits\r\n  appear first. Small, medium and large widgets show up to one, three and six\r\n  habits respectively (#687)\r\n- Keep automatic check-ins visible until tapping **Next** to show another habit;\r\n  widgets on the same device share check-in and Next updates. Fixed habits stay\r\n  visible with Undo. Show a completion message when all goals are complete, or\r\n  **No pending habits** when incomplete or skipped goals leave no rows (#687)\r\n- Mark ordinary habits incomplete with **Missed**, distinguish ordinary and\r\n  negative habit record states, and display labels in the app language (#687)\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Improve foldable-screen layouts: fit dialogs, sheets and date/time pickers to\r\n  the selected screen area, and place confirmations in the right or lower area\r\n  (#691)\r\n- Keep toolbars, sidebars, search and floating controls clear of window controls\r\n  (#691)\r\n- Preserve navigation state across safe-area changes and fix Material\r\n  localization reloads (#691)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Standardize Swift formatting and add formatting checks to local and CI\r\n  workflows (#688)\r\n- Update adaptive UI dependencies and select stable Xcode 27.x in CI (#691)\r\n- Refresh Apple build dependency locks\r\n- Update contributor credits\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.15+204...v1.27.18+207)\r\n",
       "beta": false
     }
   ],
