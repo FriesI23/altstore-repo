@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.27.24+213",
+          "version": "1.27.24",
+          "date": "2026-11-24T02:53:25Z",
+          "size": 17635302,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.24%2B213/mhabit-unsigned.ipa",
+          "buildVersion": "213",
+          "sha256": "1b875ca6aed04024e2ab342578baeba40f80f771f026ee90b2aeca046669e57f",
+          "localizedDescription": "# v1.27.24+213\n\n# Released: v1.27.24+213\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Report corrupt Loop ZIP backups as import errors (#715)\r\n- Restore reliable first-frame rendering and window lifecycle handling on\r\n  Windows. Use the English app name in the title bar to avoid garbled text\r\n  (#715)\r\n- Correct English text in habit details, check-ins, reminders, import, export,\r\n  and settings. Show the correct number of days until a habit starts in\r\n  Russian and Ukrainian (#720)\r\n- Avoid a crash when entering full screen or resizing the window on macOS by\r\n  temporarily switching to Skia\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Add Esperanto translation to the app and iOS Home Screen widgets, thanks to\r\n  Jon Stevenson's contribution on Weblate (#717)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Upgrade to Flutter 3.47.9 and Dart 3.13.7, and migrate the adaptive interface\r\n  and animated lists to standalone packages (#715)\r\n- Adopt native Windows build flavors and align Linux and Flatpak packaging\r\n  with the generic distribution (#715)\r\n- Enable Windows ARM64 release builds alongside x64, report failed artifact\r\n  uploads, and fix precheck handling in manual builds (#716)\r\n- Upgrade the Flatpak runtime and release build container to Freedesktop SDK\r\n  26.08 (#719)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.20+209...v1.27.24+213)\r\n"
+        },
+        {
           "absoluteVersion": "1.27.20+209",
           "version": "1.27.20",
           "date": "2026-11-15T04:39:05Z",
@@ -487,11 +497,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.27.20",
-      "size": 16672428,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.20%2B209/mhabit-unsigned.ipa",
-      "versionDate": "2026-11-15T04:39:05Z",
-      "versionDescription": "# v1.27.20+209\n\n# Released: v1.27.20+209\r\n\r\n## \u2728 Features\r\n\r\n- Add shared support cards to Settings and optional startup reminders, with\r\n  animated headers, automatic paging and clickable page indicators. Keep GitHub\r\n  Star and donation actions, and offer store review or Flathub favorites links\r\n  for the current distribution. Remember **Remind me later** and **Don't remind\r\n  me again** choices (#707)\r\n- Choose and remember the interface style in Display settings. When using the\r\n  Apple style, choose automatic, inset or edge Sidebar appearance (#709)\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Restore normal browsing after an empty search in the Apple interface (#703)\r\n- Restore WebDAV sync with mixed authentication challenges, including Fastmail\r\n  (#705)\r\n- Preserve Loop import history for habits with non-Latin names and retain record\r\n  notes (#706)\r\n- Refresh support cards and open previews when their channel changes, and keep\r\n  background support controls visually enabled while a dialog is open (#707)\r\n- Restore startup support reminders on Windows and Linux, and close the support\r\n  dialog before asking for sync confirmation (#708)\r\n- Preserve habit-page floating button transitions after switching interface\r\n  styles (#709)\r\n- Keep the macOS app category consistent with the category selected in Xcode\r\n  (#711)\r\n- Preserve the release version and build number in macOS app bundles for\r\n  App Store Connect uploads\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Update Arabic translation, thanks to Rostom HEO's contribution on Weblate\r\n  (#702)\r\n- Update Spanish translation, thanks to Jesus Calle's contribution on Weblate\r\n  (#710)\r\n- Update Welsh translation, thanks to Jon Stevenson's contribution on Weblate\r\n  (store metadata, #710, #713)\r\n- Update Esperanto translation, thanks to Jon Stevenson's contribution on Weblate\r\n  (store metadata, #710)\r\n- Prepare Welsh and Esperanto app locales, currently available only in debug\r\n  builds. Untranslated app text falls back to English (#711)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Move community planning and feedback links to GitHub Projects and Issue forms\r\n- Add links to related projects and refresh donor and translator credits\r\n- Refresh the Flutter version badge and document SDK upgrade rules\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.18+207...v1.27.20+209)\r\n",
+      "version": "1.27.24",
+      "size": 17635302,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.24%2B213/mhabit-unsigned.ipa",
+      "versionDate": "2026-11-24T02:53:25Z",
+      "versionDescription": "# v1.27.24+213\n\n# Released: v1.27.24+213\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Report corrupt Loop ZIP backups as import errors (#715)\r\n- Restore reliable first-frame rendering and window lifecycle handling on\r\n  Windows. Use the English app name in the title bar to avoid garbled text\r\n  (#715)\r\n- Correct English text in habit details, check-ins, reminders, import, export,\r\n  and settings. Show the correct number of days until a habit starts in\r\n  Russian and Ukrainian (#720)\r\n- Avoid a crash when entering full screen or resizing the window on macOS by\r\n  temporarily switching to Skia\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Add Esperanto translation to the app and iOS Home Screen widgets, thanks to\r\n  Jon Stevenson's contribution on Weblate (#717)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Upgrade to Flutter 3.47.9 and Dart 3.13.7, and migrate the adaptive interface\r\n  and animated lists to standalone packages (#715)\r\n- Adopt native Windows build flavors and align Linux and Flatpak packaging\r\n  with the generic distribution (#715)\r\n- Enable Windows ARM64 release builds alongside x64, report failed artifact\r\n  uploads, and fix precheck handling in manual builds (#716)\r\n- Upgrade the Flatpak runtime and release build container to Freedesktop SDK\r\n  26.08 (#719)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.20+209...v1.27.24+213)\r\n",
       "beta": false
     }
   ],
