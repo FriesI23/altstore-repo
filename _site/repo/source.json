@@ -63,6 +63,16 @@
       },
       "versions": [
         {
+          "absoluteVersion": "1.27.25+214",
+          "version": "1.27.25",
+          "date": "2026-11-25T03:51:24Z",
+          "size": 17659609,
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.25%2B214/mhabit-unsigned.ipa",
+          "buildVersion": "214",
+          "sha256": "cc43814805d670b1f23ec8b781c508e8989c72d00ae54627d9ce57b0d12e40d4",
+          "localizedDescription": "# v1.27.25+214\n\n# Released: v1.27.25+214\r\n\r\nThis release is intended for F-Droid only.\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Pin the Android NDK to r28c (`28.2.13676358`) so APK rebuilds can use the\r\n  same compiler as the release build (#725). See the [Android build instructions](https://github.com/FriesI23/mhabit/blob/v1.27.25%2B214/docs/wiki/Dev%EA%9E%89-Build-From-Source.md#building-for-android).\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Complete the Welsh app translation and update Esperanto. Thanks to Jon\r\n  Stevenson for both contributions on Weblate (#721).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.24+213...v1.27.25+214)\r\n"
+        },
+        {
           "absoluteVersion": "1.27.24+213",
           "version": "1.27.24",
           "date": "2026-11-24T02:53:25Z",
@@ -497,11 +507,11 @@
         "privacy": []
       },
       "appID": "io.github.friesi23.mhabit",
-      "version": "1.27.24",
-      "size": 17635302,
-      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.24%2B213/mhabit-unsigned.ipa",
-      "versionDate": "2026-11-24T02:53:25Z",
-      "versionDescription": "# v1.27.24+213\n\n# Released: v1.27.24+213\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Report corrupt Loop ZIP backups as import errors (#715)\r\n- Restore reliable first-frame rendering and window lifecycle handling on\r\n  Windows. Use the English app name in the title bar to avoid garbled text\r\n  (#715)\r\n- Correct English text in habit details, check-ins, reminders, import, export,\r\n  and settings. Show the correct number of days until a habit starts in\r\n  Russian and Ukrainian (#720)\r\n- Avoid a crash when entering full screen or resizing the window on macOS by\r\n  temporarily switching to Skia\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Add Esperanto translation to the app and iOS Home Screen widgets, thanks to\r\n  Jon Stevenson's contribution on Weblate (#717)\r\n\r\n## \ud83e\uddf9 Others\r\n\r\n- Upgrade to Flutter 3.47.9 and Dart 3.13.7, and migrate the adaptive interface\r\n  and animated lists to standalone packages (#715)\r\n- Adopt native Windows build flavors and align Linux and Flatpak packaging\r\n  with the generic distribution (#715)\r\n- Enable Windows ARM64 release builds alongside x64, report failed artifact\r\n  uploads, and fix precheck handling in manual builds (#716)\r\n- Upgrade the Flatpak runtime and release build container to Freedesktop SDK\r\n  26.08 (#719)\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.20+209...v1.27.24+213)\r\n",
+      "version": "1.27.25",
+      "size": 17659609,
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.25%2B214/mhabit-unsigned.ipa",
+      "versionDate": "2026-11-25T03:51:24Z",
+      "versionDescription": "# v1.27.25+214\n\n# Released: v1.27.25+214\r\n\r\nThis release is intended for F-Droid only.\r\n\r\n## \ud83d\udc1b Fixes\r\n\r\n- Pin the Android NDK to r28c (`28.2.13676358`) so APK rebuilds can use the\r\n  same compiler as the release build (#725). See the [Android build instructions](https://github.com/FriesI23/mhabit/blob/v1.27.25%2B214/docs/wiki/Dev%EA%9E%89-Build-From-Source.md#building-for-android).\r\n\r\n## \ud83c\udf10 Localization\r\n\r\n- Complete the Welsh app translation and update Esperanto. Thanks to Jon\r\n  Stevenson for both contributions on Weblate (#721).\r\n\r\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.24+213...v1.27.25+214)\r\n",
       "beta": false
     }
   ],
